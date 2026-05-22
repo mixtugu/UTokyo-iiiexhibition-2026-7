@@ -1,5 +1,6 @@
-import { redirect } from "next/navigation";
+import { LocalePageContent } from "@/components/LocalePageContent";
+import { defaultLocale } from "@/lib/i18n";
 
 export default function Home() {
-  redirect("/ja");
+  return <LocalePageContent locale={defaultLocale} />;
 }
