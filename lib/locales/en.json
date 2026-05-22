@@ -1,0 +1,47 @@
+{
+  "eyebrow": "UTokyo iii Exhibition 2026",
+  "title": "Beginning",
+  "description": "description",
+  "switchLanguage": "日本語",
+  "nav": {
+    "concept": "Concept",
+    "about": "About",
+    "works": "Works",
+    "members": "Members",
+    "access": "Access",
+    "archives": "Archives"
+  },
+  "sections": {
+    "main": {
+      "label": "Main Page",
+      "lead": "main page"
+    },
+    "concept": {
+      "title": "Concept",
+      "body": "concept"
+    },
+    "about": {
+      "title": "About",
+      "body": "about"
+    },
+    "works": {
+      "title": "Works",
+      "body": "works"
+    },
+    "members": {
+      "title": "Members",
+      "body": "members"
+    },
+    "access": {
+      "title": "Access",
+      "body": "access"
+    },
+    "archives": {
+      "title": "Archives",
+      "body": "archives"
+    },
+    "footer": {
+      "title": "UTokyo iii Exhibition 2026: Beginning"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "eyebrow": "東京大学制作展 2026",
+  "title": "Beginning",
+  "description": "説明",
+  "switchLanguage": "English",
+  "nav": {
+    "concept": "Concept",
+    "about": "About",
+    "works": "Works",
+    "members": "Members",
+    "access": "Access",
+    "archives": "Archives"
+  },
+  "sections": {
+    "main": {
+      "label": "Main Page",
+      "lead": "Main Page"
+    },
+    "concept": {
+      "title": "Concept",
+      "body": "Concept"
+    },
+    "about": {
+      "title": "About",
+      "body": "About"
+    },
+    "works": {
+      "title": "Works",
+      "body": "Works"
+    },
+    "members": {
+      "title": "Members",
+      "body": "Members"
+    },
+    "access": {
+      "title": "Access",
+      "body": "Access"
+    },
+    "archives": {
+      "title": "Archives",
+      "body": "Archives"
+    },
+    "footer": {
+      "title": "UTokyo iii Exhibition 2026: Beginning"
+    }
+  }
+}
