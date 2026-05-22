@@ -1,10 +1,6 @@
+import { LocalePageContent } from "@/components/LocalePageContent";
+import { defaultLocale } from "@/lib/i18n";
+
 export default function Home() {
-  return (
-    <>
-      <meta httpEquiv="refresh" content="0; url=/ja/" />
-      <main>
-        <a href="/ja/">Continue to Japanese page</a>
-      </main>
-    </>
-  );
+  return <LocalePageContent locale={defaultLocale} />;
 }
