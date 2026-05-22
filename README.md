@@ -26,17 +26,6 @@ npm install
 npm run dev
 ```
 
-ブラウザで以下の URL にアクセスします。
-
-```text
-http://localhost:3000
-```
-
-言語別ページは以下のパスで確認できます。
-
-- Japanese: `http://localhost:3000/ja`
-- English: `http://localhost:3000/en`
-
 ## ビルドと本番実行
 
 本番用ビルドを作成します。
@@ -110,9 +99,4 @@ npm run start
 
 - 新しいセクションを追加する場合は、`components/sections` にコンポーネントを作成し、`app/[locale]/page.tsx` に接続します。
 - セクションに新しい文言が必要な場合は、`lib/i18n.ts` の `Dictionary` 型と `lib/locales/ja.json`、`lib/locales/en.json` をあわせて更新します。
-- 開発サーバーがすでに起動している場合は、まず `http://localhost:3000` を確認します。
-- `Another next dev server is already running` というエラーが出る場合は、既存のサーバーを終了するか、別のポートで起動します。
-
-```bash
-npm run dev -- -p 3001
 ```
