@@ -1,5 +1,10 @@
-import { redirect } from "next/navigation";
-
 export default function Home() {
-  redirect("/ja");
+  return (
+    <>
+      <meta httpEquiv="refresh" content="0; url=/ja/" />
+      <main>
+        <a href="/ja/">Continue to Japanese page</a>
+      </main>
+    </>
+  );
 }
