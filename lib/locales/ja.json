@@ -4,7 +4,7 @@
   "description": "説明",
   "switchLanguage": "English",
   "nav": {
-    "concept": "Concept",
+    "concept": "Top",
     "about": "About",
     "works": "Works",
     "members": "Members",
@@ -17,8 +17,8 @@
       "lead": "Main Page"
     },
     "concept": {
-      "title": "Concept",
-      "body": "Concept"
+      "title": "「たゆたう」",
+      "body": "私たちはたゆたう。\nどこにでも行けるし、誰とでもつながれる。\nその一方で、自分という輪郭が少しずつぼやけていく。\n平均化された答えに身を委ねたり、いつでも切れる細い糸をたくさん持っていたり。\n私たちは今、そんな曖昧な場所をたゆたっています。\nこれを自由と呼ぶか、喪失と呼ぶか。"
     },
     "about": {
       "title": "About",
