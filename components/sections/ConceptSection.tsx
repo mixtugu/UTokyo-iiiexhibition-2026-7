@@ -4,6 +4,15 @@ type ConceptSectionProps = {
   dictionary: (typeof dictionaries)[Locale];
 };
 
+function renderLineBreakHints(text: string) {
+  return text.split("|").map((part, index, parts) => (
+    <span key={`${part}-${index}`}>
+      {part}
+      {index < parts.length - 1 ? <wbr /> : null}
+    </span>
+  ));
+}
+
 export function ConceptSection({ dictionary }: ConceptSectionProps) {
   return (
     <section
@@ -23,8 +32,8 @@ export function ConceptSection({ dictionary }: ConceptSectionProps) {
             aria-hidden="true"
             className="absolute inset-0 bg-[url('/concept_background.png')] bg-contain bg-center bg-no-repeat opacity-90"
           />
-          <p className="relative whitespace-pre-line text-base leading-8 text-foreground/75 sm:text-lg md:text-2xl md:leading-10">
-            {dictionary.sections.concept.body}
+          <p className="relative whitespace-pre-line text-base leading-8 text-foreground/75 [word-break:keep-all] sm:text-lg md:text-2xl md:leading-10">
+            {renderLineBreakHints(dictionary.sections.concept.body)}
           </p>
         </div>
       </div>
