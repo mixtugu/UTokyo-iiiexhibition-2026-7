@@ -5,6 +5,7 @@
   --color-foreground: #000000;
   --color-muted: #ffffff;
   --color-accent: #111111;
+  --color-pink: #DF6AA7;
 }
 
 @layer base {

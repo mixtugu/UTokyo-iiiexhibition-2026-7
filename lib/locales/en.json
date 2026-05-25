@@ -22,7 +22,9 @@
     },
     "about": {
       "title": "About",
-      "body": "about"
+      "body": "The UTokyo iii Exhibition is an exhibition exploring the fusion of technology and art.\nSupervised by faculty in the field of information and media art, the exhibition is planned, produced, and operated primarily by students of the Graduate School of Interdisciplinary Information Studies at the University of Tokyo, along with students from a diverse range of disciplines.",
+      "registration": "Registration is required for entry.\nWalk-in registration is available on the day, but pre-registration is recommended as crowds are expected.",
+      "registrationButton": "Register"
     },
     "works": {
       "title": "Works",

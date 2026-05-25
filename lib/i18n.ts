@@ -32,6 +32,8 @@ export type Dictionary = {
     about: {
       title: string;
       body: string;
+      registration: string;
+      registrationButton: string;
     };
     works: {
       title: string;
