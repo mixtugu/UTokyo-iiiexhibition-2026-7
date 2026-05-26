@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap");
 @import "tailwindcss";
 
 @theme {
@@ -5,6 +6,8 @@
   --color-foreground: #000000;
   --color-muted: #ffffff;
   --color-accent: #111111;
+  --font-playpen-sans: "Playpen Sans", cursive;
+  --font-zen-kaku: "Zen Kaku Gothic New", sans-serif;
 }
 
 @layer base {
