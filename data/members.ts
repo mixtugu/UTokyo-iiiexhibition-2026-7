@@ -177,11 +177,6 @@ export const memberGroups: MemberGroup[] = [
         en: "Arata Kokani"
       },
       {
-        id: "Meika_Mizuno",
-        ja: "水野 明香",
-        en: "Meika Mizuno"
-      },
-      {
         id: "Keigo_Toda",
         ja: "戸田 圭吾",
         en: "Keigo Toda"
