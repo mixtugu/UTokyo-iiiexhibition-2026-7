@@ -15,9 +15,8 @@ export function FooterSection({ dictionary }: FooterSectionProps) {
 
     try {
       await window.navigator.share({
-        title: "東京大学制作展 2026",
-        text: "東京大学制作展 Beginning 2026「たゆたう」のウェブページです。",
-        url: "https://example.com/",
+        title: dictionary.eyebrow,
+        url: window.location.href,
       });
     } catch (e) {
       console.log(e instanceof Error ? e.message : e);
