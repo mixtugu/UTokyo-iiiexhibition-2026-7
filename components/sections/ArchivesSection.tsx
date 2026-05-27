@@ -52,7 +52,7 @@ export function ArchivesSection({ dictionary }: ArchivesSectionProps) {
   ];
 
   return (
-    <section className="px-6 py-20 md:px-8" id="archives">
+    <section className="px-6 py-20 md:px-8 bg-[rgb(250,242,245)]" id="archives">
       <div className="mx-auto max-w-6xl">
         <h2 className="text-center text-3xl md:text-4xl font-medium font-playpen-sans">
           {dictionary.sections.archives.title}
