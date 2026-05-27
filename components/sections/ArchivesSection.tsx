@@ -6,7 +6,7 @@ type ArchivesSectionProps = {
 
 function ArchiveTitles({ titles }: { titles: string[] }) {
   return (
-    <ul className="w-full text-left text-sm md:text-base">
+    <ul className="w-full text-left text-sm md:text-base font-medium font-zen-kaku">
       {titles.map((title) => (
         <li className="leading-relaxed my-2.5" key={title}>{title}</li>
       ))}
@@ -54,13 +54,13 @@ export function ArchivesSection({ dictionary }: ArchivesSectionProps) {
   return (
     <section className="px-6 py-20 md:px-8" id="archives">
       <div className="mx-auto max-w-6xl">
-        <h2 className="text-center text-3xl font-bold md:text-4xl">
+        <h2 className="text-center text-3xl md:text-4xl font-medium font-playpen-sans">
           {dictionary.sections.archives.title}
         </h2>
 
         <div className="mt-12 grid md:mt-16 md:grid-cols-[1fr_2px_1fr]">
           <div className="flex flex-col items-center  pb-12 md:pb-0 md:pr-10 lg:pr-16">
-            <h3 className="mb-8 text-center text-base lowercase md:text-lg">
+            <h3 className="mb-8 text-center text-base lowercase md:text-lg font-medium font-playpen-sans">
               iii exhibition
             </h3>
             <ArchiveTitles titles={iiiExhibitionTitles} />
@@ -68,7 +68,7 @@ export function ArchivesSection({ dictionary }: ArchivesSectionProps) {
           <div className="hidden md:block w-[2px] h-full bg-[linear-gradient(to_bottom,#973A3C_38%,#15394D_100%)] opacity-50"></div>
 
           <div className="flex flex-col items-center md:pl-10 lg:pl-16">
-            <h3 className="mb-8 text-center text-base lowercase md:text-lg">
+            <h3 className="mb-8 text-center text-base lowercase md:text-lg font-medium font-playpen-sans">
               beginning
             </h3>
             <ArchiveTitles titles={beginningTitles} />
