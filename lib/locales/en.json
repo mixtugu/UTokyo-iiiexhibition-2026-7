@@ -36,7 +36,20 @@
     },
     "access": {
       "title": "Access",
-      "body": "access"
+      "venue": {
+        "title": "Venue",
+        "name": "The University of Tokyo, Hongo Campus",
+        "detail": "Interfaculty Initiative in Information Studies Main Building, B1F\nOpen Studio"
+      },
+      "transport": "15 min walk from Nezu Station (Tokyo Metro Chiyoda Line)\n13 min walk from Todaimae Station (Tokyo Metro Namboku Line)\n8 min walk from Hongo-Sanchome Station (Tokyo Metro Marunouchi Line / Toei Oedo Line)",
+      "datetime": {
+        "title": "Dates",
+        "value": "2026.7.10 (Fri) - 2026.7.13 (Mon)\n11:00 - 19:00"
+      },
+      "organizer": {
+        "title": "Organizer",
+        "detail": "This exhibition is organized by the Graduate School of Interdisciplinary Information Studies, The University of Tokyo.\n(Contact: utokyo.iii.exhibition@gmail.com)"
+      }
     },
     "archives": {
       "title": "Archives",

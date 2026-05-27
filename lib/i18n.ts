@@ -45,7 +45,20 @@ export type Dictionary = {
     };
     access: {
       title: string;
-      body: string;
+      venue: {
+        title: string;
+        name: string;
+        detail: string;
+      };
+      transport: string;
+      datetime: {
+        title: string;
+        value: string;
+      };
+      organizer: {
+        title: string;
+        detail: string;
+      };
     };
     archives: {
       title: string;

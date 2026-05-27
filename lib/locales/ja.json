@@ -36,7 +36,20 @@
     },
     "access": {
       "title": "Access",
-      "body": "Access"
+      "venue": {
+        "title": "会場",
+        "name": "東京大学 本郷キャンパス",
+        "detail": "情報学環本館 地下1階\n情報学環オープンスタジオ"
+      },
+      "transport": "千代田線 根津駅より徒歩15分\n南北線 東大前駅より徒歩13分\n丸ノ内線 / 都営大江戸線 本郷三丁目駅より徒歩8分",
+      "datetime": {
+        "title": "日時",
+        "value": "2026.7.10 (金)  - 2026.7.13 (月)\n11:00 - 19:00"
+      },
+      "organizer": {
+        "title": "主催",
+        "detail": "本展覧会は東京大学 情報学環・学際情報学府が主催しております。\n（お問い合わせ：utokyo.iii.exhibition@gmail.com）"
+      }
     },
     "archives": {
       "title": "Archives",
