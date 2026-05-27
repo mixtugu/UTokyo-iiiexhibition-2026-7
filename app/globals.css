@@ -6,9 +6,9 @@
   --color-foreground: #000000;
   --color-muted: #ffffff;
   --color-accent: #111111;
+  --color-pink: #DF6AA7;
   --font-playpen-sans: "Playpen Sans", cursive;
   --font-zen-kaku: "Zen Kaku Gothic New", sans-serif;
-  --color-pink: #DF6AA7;
 }
 
 @layer base {
