@@ -236,7 +236,7 @@ export const memberGroups: MemberGroup[] = [
       },
       {
         id: "Tadasuke_Koshimbo",
-        ja: "光真 坊忠佑",
+        ja: "光真坊 忠佑",
         en: "Tadasuke Koshimbo"
       },
       {
