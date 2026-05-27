@@ -251,7 +251,7 @@ export const memberGroups: MemberGroup[] = [
       },
       {
         id: "Yayoi_Okamoto",
-        ja: "岡本弥生",
+        ja: "岡本 弥生",
         en: "Yayoi Okamoto"
       }
     ]
@@ -280,7 +280,7 @@ export const memberGroups: MemberGroup[] = [
       },
       {
         id: "Hou_Yancheng",
-        ja: "侯彦丞",
+        ja: "侯 彦丞",
         en: "Hou Yancheng"
       },
       {
@@ -304,37 +304,37 @@ export const memberGroups: MemberGroup[] = [
     members : [
       {
         id: "Takeshi_Naemura",
-        ja: "苗村健",
+        ja: "苗村 健",
         en: "Takeshi Naemura"
       },
       {
         id: "Hidenori_Watanabe",
-        ja: "渡邉英徳",
+        ja: "渡邉 英徳",
         en: "Hidenori Watanabe"
       },
       {
         id: "Yasuaki_Kakehi",
-        ja: "筧康明",
+        ja: "筧 康明",
         en: "Yasuaki Kakehi"
       },
       {
         id: "Daisuke_Kuramoto",
-        ja: "倉本大資",
+        ja: "倉本 大資",
         en: "Daisuke Kuramoto"
       },
       {
         id: "Takafumi_Morita",
-        ja: "森田崇文",
+        ja: "森田 崇文",
         en: "Takafumi Morita"
       },
       {
         id: "Koki_Sone",
-        ja: "曽根光揮",
+        ja: "曽根 光揮",
         en: "Koki Sone"
       },
       {
         id: "Shohei_Takei",
-        ja: "武井祥平",
+        ja: "武井 祥平",
         en: "Shohei Takei"
       }
     ]
