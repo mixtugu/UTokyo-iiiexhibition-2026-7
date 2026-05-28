@@ -125,7 +125,7 @@ export const memberGroups: MemberGroup[] = [
       },
             {
         id: "Yukihiko_Shinobu",
-        ja: "シノブ ユキヒコ",
+        ja: "信夫 行彦",
         en: "Yukihiko Shinobu"
       }
     ]
