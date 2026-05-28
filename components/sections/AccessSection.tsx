@@ -8,7 +8,10 @@ export function AccessSection({ dictionary }: AccessSectionProps) {
   const { access } = dictionary.sections;
 
   return (
-    <section className="bg-[rgb(250,242,245)] px-6 py-20 md:px-8" id="access">
+    <section
+      className="bg-[rgb(250,242,245)] bg-[url('/member_background.png')] bg-contain bg-center bg-no-repeat px-6 py-20 md:px-8"
+      id="access"
+    >
       <div className="mx-auto max-w-6xl pt-10 text-center">
         <h2 className="mb-12 font-playpen-sans text-5xl uppercase tracking-tight">
           {access.title}
