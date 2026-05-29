@@ -5,7 +5,7 @@
   "description": "description",
   "switchLanguage": "日本語",
   "nav": {
-    "concept": "Concept",
+    "concept": "Top",
     "about": "About",
     "works": "Works",
     "members": "Members",
@@ -22,15 +22,17 @@
     },
     "concept": {
       "title": "Concept",
-      "body": "concept"
+      "body": "As the gravity of “rightness” fades in the modern age, |we drift freely\nLike struggling slowly through water against resistance,\nor wandering in that moment before waking from a dream, |unsure of where we are\nthere is both comfort and constraint in drifting\nGiven endless choices, |we search for the correct answer |and become averaged out in the process\n\nWhat should we rely on, |what should we seek, |and where should we go?\nTo contemplate “drifting”"
     },
     "about": {
       "title": "About",
-      "body": "about"
+      "body": "The UTokyo iii Exhibition is an exhibition exploring the fusion of technology and art.\nSupervised by faculty in the field of information and media art, the exhibition is planned, produced, and operated primarily by students of the Graduate School of Interdisciplinary Information Studies at the University of Tokyo, along with students from a diverse range of disciplines.",
+      "registration": "Registration is required for entry.\nWalk-in registration is available on the day, but pre-registration is recommended as crowds are expected.",
+      "registrationButton": "Register"
     },
     "works": {
       "title": "Works",
-      "body": "works"
+      "body": "Click on an image to view the details of the work."
     },
     "members": {
       "title": "Members",
@@ -38,7 +40,20 @@
     },
     "access": {
       "title": "Access",
-      "body": "access"
+      "venue": {
+        "title": "Venue",
+        "name": "The University of Tokyo, Hongo Campus",
+        "detail": "Interfaculty Initiative in Information Studies Main Building, B1F\nOpen Studio"
+      },
+      "transport": "15 min walk from Nezu Station (Tokyo Metro Chiyoda Line)\n13 min walk from Todaimae Station (Tokyo Metro Namboku Line)\n8 min walk from Hongo-Sanchome Station (Tokyo Metro Marunouchi Line / Toei Oedo Line)",
+      "datetime": {
+        "title": "Dates",
+        "value": "2026.7.10 (Fri) - 2026.7.13 (Mon)\n11:00 - 19:00"
+      },
+      "organizer": {
+        "title": "Organizer",
+        "detail": "This exhibition is organized by the Graduate School of Interdisciplinary Information Studies, The University of Tokyo.\n(Contact: utokyo.iii.exhibition@gmail.com)"
+      }
     },
     "archives": {
       "title": "Archives",

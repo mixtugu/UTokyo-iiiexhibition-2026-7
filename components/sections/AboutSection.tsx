@@ -1,4 +1,7 @@
+import { Playpen_Sans } from "next/font/google";
 import { type Locale, type dictionaries } from "@/lib/i18n";
+
+const playpenSans = Playpen_Sans({ subsets: ["latin"] });
 
 type AboutSectionProps = {
   dictionary: (typeof dictionaries)[Locale];
@@ -6,14 +9,26 @@ type AboutSectionProps = {
 
 export function AboutSection({ dictionary }: AboutSectionProps) {
   return (
-    <section className="px-6 py-20 md:px-8" id="about">
-      <div className="mx-auto grid max-w-6xl gap-8 border-t border-foreground/15 pt-10 md:grid-cols-[220px_1fr]">
-        <h2 className="text-sm font-bold uppercase text-accent">
+    <section
+      className="bg-[rgb(250,242,245)] bg-[url('/member_background.png')] bg-contain bg-center bg-no-repeat px-12 py-20 md:px-16"
+      id="about"
+    >
+      <div className="mx-auto flex max-w-6xl flex-col items-center gap-24 text-center">
+        <h2 className={`${playpenSans.className} text-5xl uppercase text-foreground md:text-[50px]`}>
           {dictionary.sections.about.title}
         </h2>
-        <p className="max-w-3xl text-lg leading-8 text-foreground/80">
+        <p className="font-zen-kaku max-w-4xl whitespace-pre-line text-lg leading-normal text-foreground/75 md:text-2xl">
           {dictionary.sections.about.body}
         </p>
+        <p className="font-zen-kaku mt-8 max-w-4xl whitespace-pre-line text-lg leading-normal text-foreground/75 md:text-2xl">
+          {dictionary.sections.about.registration}
+        </p>
+        <a
+          className="font-zen-kaku inline-block rounded-[18px] bg-pink px-14 py-6 text-2xl font-bold text-white leading-none shadow-[0_6px_16px_rgba(0,0,0,0.2)] md:text-[40px]"
+          href="#"
+        >
+          {dictionary.sections.about.registrationButton}
+        </a>
       </div>
     </section>
   );

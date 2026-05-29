@@ -4,16 +4,38 @@ type ConceptSectionProps = {
   dictionary: (typeof dictionaries)[Locale];
 };
 
+function renderLineBreakHints(text: string) {
+  return text.split("|").map((part, index, parts) => (
+    <span key={`${part}-${index}`}>
+      {part}
+      {index < parts.length - 1 ? <wbr /> : null}
+    </span>
+  ));
+}
+
 export function ConceptSection({ dictionary }: ConceptSectionProps) {
   return (
-    <section className="px-6 py-20 md:px-8" id="concept">
-      <div className="mx-auto grid max-w-6xl gap-8 border-t border-foreground/15 pt-10 md:grid-cols-[220px_1fr]">
-        <h2 className="text-sm font-bold uppercase text-accent">
-          {dictionary.sections.concept.title}
-        </h2>
-        <p className="max-w-3xl text-2xl leading-normal text-foreground md:text-4xl">
-          {dictionary.sections.concept.body}
-        </p>
+    <section
+      className="bg-[rgb(250,242,245)] px-4 py-16 md:px-8 md:py-20"
+      id="concept"
+    >
+      <div className="mx-auto flex max-w-6xl flex-col items-center text-center">
+        <img
+          alt={dictionary.sections.concept.title}
+          className="h-auto w-full max-w-[320px] md:max-w-[520px]"
+          height={75}
+          src="/concept_title.svg"
+          width={505}
+        />
+        <div className="relative mt-8 w-full max-w-5xl px-3 py-10 md:mt-12 md:px-6 md:py-16">
+          <div
+            aria-hidden="true"
+            className="absolute inset-0 bg-[url('/concept_background.png')] bg-contain bg-center bg-no-repeat opacity-90"
+          />
+          <p className="relative whitespace-pre-line text-base leading-8 text-foreground/75 [word-break:keep-all] sm:text-base md:text-xl md:leading-10">
+            {renderLineBreakHints(dictionary.sections.concept.body)}
+          </p>
+        </div>
       </div>
     </section>
   );
