@@ -9,6 +9,7 @@ export const defaultLocale: Locale = "ja";
 
 export type Dictionary = {
   eyebrow: string;
+  subtitle: string;
   title: string;
   description: string;
   switchLanguage: string;
@@ -24,6 +25,9 @@ export type Dictionary = {
     main: {
       label: string;
       lead: string;
+      date: string;
+      location1: string;
+      location2: string;
     };
     concept: {
       title: string;
