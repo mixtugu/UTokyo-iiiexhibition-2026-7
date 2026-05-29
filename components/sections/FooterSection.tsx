@@ -30,7 +30,7 @@ export function FooterSection({ dictionary }: FooterSectionProps) {
           <li>
             <button
               type="button"
-              className="w-10 h-10 flex items-center justify-center bg-foreground rounded-full"
+              className="w-10 h-10 flex items-center justify-center bg-foreground rounded-full cursor-pointer"
               onClick={share}
               aria-label="Share"
             >
