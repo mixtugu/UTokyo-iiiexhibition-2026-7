@@ -1,5 +1,6 @@
 {
-  "eyebrow": "UTokyo iii Exhibition 2026",
+  "eyebrow": "UTokyo iii Exhibition",
+  "subtitle": "",
   "title": "Beginning",
   "description": "description",
   "switchLanguage": "日本語",
@@ -14,7 +15,10 @@
   "sections": {
     "main": {
       "label": "Main Page",
-      "lead": "main page"
+      "lead": "main page",
+      "date": "2026.7.10 Fri - 2026.7.13 Mon",
+      "location1": "The University of Tokyo, Hongo Campus",
+      "location2": "Open Studio, iii UTokyo"
     },
     "concept": {
       "title": "Concept",
