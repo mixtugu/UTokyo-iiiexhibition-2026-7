@@ -8,33 +8,32 @@ type MembersSectionProps = {
 
 export function MembersSection({ dictionary, locale }: MembersSectionProps) {
   return (
-    <section className="px-6 py-20 md:px-8" id="members">
-      <div className="mx-auto grid max-w-6xl gap-8 border-t border-foreground/15 pt-10 md:grid-cols-[220px_1fr]">
-        <div>
-          <h2 className="text-sm font-bold uppercase text-accent">
-            {dictionary.sections.members.title}
-          </h2>
-        </div>
-        <div className="grid gap-8">
+    <section
+      className="bg-[rgb(250,242,245)] bg-[url('/member_background.png')] bg-contain bg-center bg-no-repeat px-6 py-20 md:px-8"
+      id="members"
+    >
+      <div className="mx-auto max-w-6xl pt-10 text-center">
+        <h2 className="mb-12 font-playpen-sans text-5xl uppercase tracking-tight">
+          {dictionary.sections.members.title}
+        </h2>
+        <div className="grid gap-6">
           {memberGroups.map((group) => (
-            <section
-              className="grid gap-4 border-b border-foreground/10 pb-8 last:border-b-0 last:pb-0 md:grid-cols-[180px_1fr]"
-              key={group.id}
-            >
-              <h3 className="text-base font-bold text-foreground">
+            <div className="pb-4 last:pb-0" key={group.id}>
+              <p className="mb-1.5 font-zen-kaku text-sm font-bold uppercase tracking-wider text-accent">
                 {group.title[locale]}
-              </h3>
-              <ul className="grid gap-3 sm:grid-cols-2">
+              </p>
+              <p className="flex flex-wrap justify-center gap-x-2 gap-y-1 font-zen-kaku text-lg leading-relaxed text-foreground/75">
                 {group.members.map((member, index) => (
-                  <li
-                    className="text-base text-foreground/75"
+                  <span
+                    className="whitespace-nowrap"
                     key={member.id || `${group.id}-${index}`}
                   >
+                    {index > 0 ? "| " : ""}
                     {member[locale] || "-"}
-                  </li>
+                  </span>
                 ))}
-              </ul>
-            </section>
+              </p>
+            </div>
           ))}
         </div>
       </div>
