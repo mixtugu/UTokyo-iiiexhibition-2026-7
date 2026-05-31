@@ -1,5 +1,6 @@
 {
-  "eyebrow": "東京大学制作展 2026",
+  "eyebrow": "東京大学制作展",
+  "subtitle": "iii Exhibition",
   "title": "Beginning",
   "description": "説明",
   "switchLanguage": "English",
@@ -14,7 +15,10 @@
   "sections": {
     "main": {
       "label": "Main Page",
-      "lead": "Main Page"
+      "lead": "Main Page",
+      "date": "2026.7.10 (金) - 2026.7.13 (月)",
+      "location1": "東京大学 本郷キャンパス",
+      "location2": "情報学環 オープンスタジオ"
     },
     "concept": {
       "title": "「たゆたう」",
