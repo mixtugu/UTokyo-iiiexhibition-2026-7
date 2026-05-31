@@ -13,7 +13,7 @@ export function MainPageSection({
 }: MainPageSectionProps) {
   return (
     <section className="relative flex min-h-svh flex-col overflow-hidden" id="main">
-      {/* 배경 */}
+      {/* 背景画像 */}
       <img
         src="/images/web-top view.png"
         alt="展示背景"
@@ -23,7 +23,7 @@ export function MainPageSection({
         }}
       />
 
-      {/* iii exhibition - 우측 상단 */}
+      {/* 展示名 - 右上 */}
       <div
         style={{
           position: "absolute", top: "24px", right: "32px",
@@ -36,7 +36,7 @@ export function MainPageSection({
         iii exhibition 2026 Beginning
       </div>
 
-      {/* たゆたう - 가운데 위 */}
+      {/* たゆたう - 中央上部 */}
       <div
         style={{
           position: "absolute", top: "4%", left: "50%",
@@ -52,12 +52,12 @@ export function MainPageSection({
         />
       </div>
 
-      {/* 하단 콘텐츠 */}
+      {/* 下部コンテンツ */}
       <div
         className="absolute bottom-0 left-0 right-0 flex items-end justify-between px-6 pb-10 md:px-12 md:pb-14"
         style={{ zIndex: 10 }}
       >
-        {/* 좌하단: 東京大学制作展 */}
+        {/* 左下 - 展示タイトル（縦書き） */}
         <div
           style={{
             writingMode: "vertical-rl", fontFamily: "var(--font-shippori)",
@@ -74,8 +74,9 @@ export function MainPageSection({
           </h1>
         </div>
 
-        {/* 우하단 */}
+        {/* 右下 - 日時・会場情報 */}
         <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-end", gap: "8px" }}>
+          {/* 日時 */}
           <div
             style={{
               background: "rgba(255,255,255,0.90)", backdropFilter: "blur(4px)",
@@ -93,6 +94,7 @@ export function MainPageSection({
             </p>
           </div>
 
+          {/* 会場 */}
           <div
             style={{
               background: "rgba(255,255,255,0.90)", backdropFilter: "blur(4px)",
