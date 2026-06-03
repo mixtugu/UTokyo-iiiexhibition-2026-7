@@ -27,7 +27,7 @@ export function MainPageSection({
       </div>
 
       {/* たゆたう - 中央上部 */}
-      <div className="absolute top-[4%] inset-x-0 mx-auto z-10 w-[30vw] drop-shadow-[2px_2px_5px_rgba(0,0,0,0.022)]">
+      <div className="animate-tayutau absolute top-[4%] inset-x-0 mx-auto z-10 w-[30vw] drop-shadow-[2px_2px_5px_rgba(0,0,0,0.022)]">
         <img className="w-full" src="/main/tayutau.webp" alt="たゆたう" />
       </div>
 
