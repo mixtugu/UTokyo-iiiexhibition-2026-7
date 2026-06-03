@@ -13,7 +13,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body>{children}</body>
+      <body
+        style={{
+          backgroundColor: "rgb(250,242,245)",
+          backgroundImage: "url('/member_background.png')",
+          backgroundAttachment: "fixed",
+          backgroundSize: "100% 100vh",
+          backgroundPosition: "center top",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        {children}
+      </body>
     </html>
   );
 }
