@@ -46,9 +46,9 @@ export function MainPageSection({
         }}
       >
         <img
-          src="/images/tayutau_collage.png"
+          className="w-[30vw]"
+          src="/main/tayutau.webp"
           alt="たゆたう"
-          style={{ width: "360px" }}
         />
       </div>
 
