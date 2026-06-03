@@ -15,7 +15,7 @@ export function MainPageSection({
     <section className="relative flex min-h-svh flex-col overflow-hidden" id="main">
       {/* 背景画像 */}
       <img
-        src="/images/web-top view.png"
+        src="/main/hero.webp"
         alt="展示背景"
         style={{
           position: "absolute", inset: 0, width: "100%", height: "100%",
