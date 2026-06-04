@@ -17,7 +17,7 @@ function renderLineBreakHints(text: string) {
 export function ConceptSection({ dictionary }: ConceptSectionProps) {
   return (
     <section
-      className="bg-[rgb(250,242,245)] px-4 py-16 md:px-8 md:py-20"
+      className="px-4 py-16 md:px-8 md:py-20"
       id="concept"
     >
       <RevealOnScroll>
