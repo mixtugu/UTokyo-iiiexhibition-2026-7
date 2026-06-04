@@ -10,7 +10,7 @@ type MembersSectionProps = {
 export function MembersSection({ dictionary, locale }: MembersSectionProps) {
   return (
     <section
-      className="bg-[rgb(250,242,245)] bg-[url('/member_background.png')] bg-contain bg-center bg-no-repeat px-6 py-20 md:px-8"
+      className="bg-transparent bg-contain bg-center bg-no-repeat px-6 py-20 md:px-8"
       id="members"
     >
       <RevealOnScroll>

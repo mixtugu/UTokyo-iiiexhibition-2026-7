@@ -15,7 +15,7 @@ const works = [
 export function WorksSection({ dictionary }: WorksSectionProps) {
   return (
     <section
-      className="bg-[rgb(250,242,245)] bg-[url('/member_background.png')] bg-contain bg-center bg-no-repeat px-12 py-20 md:px-16"
+      className="bg-transparent bg-contain bg-center bg-no-repeat px-12 py-20 md:px-16"
       id="works"
     >
       <RevealOnScroll>
