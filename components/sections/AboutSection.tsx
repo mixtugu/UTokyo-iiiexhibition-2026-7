@@ -1,4 +1,5 @@
 import { Playpen_Sans } from "next/font/google";
+import { RevealOnScroll } from "@/components/RevealOnScroll";
 import { type Locale, type dictionaries } from "@/lib/i18n";
 
 const playpenSans = Playpen_Sans({ subsets: ["latin"] });
