@@ -1,6 +1,7 @@
 "use client";
 
 import { type Locale, type dictionaries } from "@/lib/i18n";
+import { RevealOnScroll } from "@/components/RevealOnScroll";
 import Link from "next/link";
 
 type FooterSectionProps = {
