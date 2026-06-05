@@ -17,9 +17,15 @@ function renderLineBreakHints(text: string) {
 export function ConceptSection({ dictionary }: ConceptSectionProps) {
   return (
     <section
-      className="bg-[rgb(250,242,245)] px-4 py-16 md:px-8 md:py-20"
+      className="px-4 py-16 md:px-8 md:py-20"
       id="concept"
     >
+      <style>{`
+    @keyframes concept-float {
+      0%, 100% { transform: translateY(0px) scale(1); }
+      50%       { transform: translateY(-12px) scale(1.02); }
+    }
+  `}</style>
       <RevealOnScroll>
         <div className="mx-auto flex max-w-6xl flex-col items-center text-center">
           <img
@@ -33,8 +39,9 @@ export function ConceptSection({ dictionary }: ConceptSectionProps) {
             <div
               aria-hidden="true"
               className="absolute inset-0 bg-[url('/concept_background.png')] bg-contain bg-center bg-no-repeat opacity-90"
+              style={{ animation: "concept-float 7s ease-in-out infinite" }}
             />
-            <p className="relative whitespace-pre-line text-base leading-8 text-foreground/75 [word-break:keep-all] sm:text-base md:text-xl md:leading-10">
+            <p className="relative whitespace-pre-line text-lg leading-8 text-foreground/75 [word-break:keep-all] md:leading-10">
               {renderLineBreakHints(dictionary.sections.concept.body)}
             </p>
           </div>

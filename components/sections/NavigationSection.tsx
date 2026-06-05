@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Playpen_Sans } from "next/font/google";
+import { Puritan } from "next/font/google";
 import { defaultLocale, type Locale, type dictionaries } from "@/lib/i18n";
 
 type NavigationSectionProps = {
@@ -16,8 +16,9 @@ const navigationItems = [
   { id: "archives", href: "#archives" },
 ] as const;
 
-const playpenSans = Playpen_Sans({
+const puritan = Puritan({
   subsets: ["latin"],
+  weight: ["400", "700"],
 });
 
 export function NavigationSection({
@@ -27,14 +28,14 @@ export function NavigationSection({
   const localeLinkClass =
     "flex h-8 min-w-12 items-center justify-center px-3 text-sm text-foreground/65 transition hover:text-foreground";
   const activeLocaleLinkClass =
-    "flex h-8 min-w-12 items-center justify-center rounded bg-foreground px-3 text-sm font-bold text-background";
+    "flex h-8 min-w-12 items-center justify-center px-3 text-sm font-bold text-pink";
 
   return (
     <>
       <header className="sticky top-0 z-10 border-y border-foreground/10 bg-[#F1E4EB]/90 px-2 py-2 backdrop-blur sm:px-4 md:px-8 md:py-4">
         <div className="mx-auto flex w-full flex-col gap-4 md:flex-row md:items-center">
           <nav
-            className={`${playpenSans.className} grid w-full flex-1 grid-cols-6 gap-1 text-[0.68rem] sm:text-sm md:gap-2 md:text-xl`}
+            className={`${puritan.className} grid w-full flex-1 grid-cols-6 gap-1 text-[0.68rem] sm:text-sm md:gap-2 md:text-xl`}
             aria-label="Sections"
           >
             {navigationItems.map((item) => (

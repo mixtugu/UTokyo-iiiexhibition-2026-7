@@ -37,12 +37,21 @@ export function MainPageSection({
       </div>
 
       {/* たゆたう - 中央上部 */}
+      <style>{`
+  @keyframes tayutau {
+    0%   { transform: translateX(-50%) translateY(0px) rotate(-1deg); }
+    30%  { transform: translateX(-50%) translateY(-14px) rotate(0.5deg); }
+    60%  { transform: translateX(-50%) translateY(-6px) rotate(-0.8deg); }
+    100% { transform: translateX(-50%) translateY(0px) rotate(-1deg); }
+  }
+`}</style>
       <div
         style={{
           position: "absolute", top: "4%", left: "50%",
           transform: "translateX(-50%)",
           zIndex: 10,
-          width: "min(280px, 70vw)",
+          width: "min(320px, 90vw)",
+          animation: "tayutau 5s ease-in-out infinite",
         }}
       >
         <img
@@ -67,8 +76,10 @@ export function MainPageSection({
           }}
         >
           <h1 style={{
-            fontSize: "clamp(1.8rem, 5vw, 5rem)", fontWeight: 700,
+            fontSize: "clamp(1.8rem, 5vw, 5rem)", fontWeight: 500,
             letterSpacing: "0.15em", lineHeight: 1.1, margin: 0,
+            fontFamily: "var(--font-shippori)",
+            transform: "scaleX(1.15)", transformOrigin: "center",
           }}>
             東京大学制作展
           </h1>
@@ -104,11 +115,28 @@ export function MainPageSection({
               textAlign: "right",
             }}
           >
-            <p style={{ fontSize: "clamp(0.75rem, 2vw, 1.1rem)", color: "rgba(0,0,0,0.70)", margin: 0, lineHeight: 1.8 }}>
+            <p style={{ fontSize: "clamp(0.75rem, 2vw, 1.1rem)", color: "var(--color-foreground)", opacity: 0.85, margin: 0, lineHeight: 1.8 }}>
               @東京大学本郷キャンパス情報学環本館<br />
               オープンスタジオ, 地下1階
             </p>
           </div>
+
+          {/* 入場登録ボタン */}
+          <a
+          href="#about"
+          style={{
+            display: "block", textAlign: "center",
+            fontFamily: "var(--font-zen-kaku)",
+            background: "linear-gradient(135deg, #e89aae, #DA8387)",
+            color: "white", fontWeight: 700,
+            fontSize: "clamp(0.85rem, 2vw, 1.2rem)",
+            padding: "10px 28px", borderRadius: "999px",
+            opacity: 0.9, boxShadow: "0 4px 16px rgba(218,131,135,0.35)",
+            transform: "rotate(-0.5deg)", whiteSpace: "nowrap",
+          }}
+          >
+          入場登録
+        </a>
         </div>
       </div>
     </section>
