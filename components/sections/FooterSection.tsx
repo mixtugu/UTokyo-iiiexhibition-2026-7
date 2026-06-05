@@ -1,6 +1,7 @@
 "use client";
 
 import { type Locale, type dictionaries } from "@/lib/i18n";
+import { RevealOnScroll } from "@/components/RevealOnScroll";
 import Link from "next/link";
 
 type FooterSectionProps = {
@@ -30,7 +31,7 @@ export function FooterSection({ dictionary }: FooterSectionProps) {
           <li>
             <button
               type="button"
-              className="w-10 h-10 flex items-center justify-center bg-foreground rounded-full"
+              className="w-10 h-10 flex items-center justify-center bg-foreground rounded-full cursor-pointer"
               onClick={share}
               aria-label="Share"
             >

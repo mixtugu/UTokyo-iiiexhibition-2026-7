@@ -24,13 +24,23 @@ export function LocalePageContent({ locale }: LocalePageContentProps) {
         dictionary={dictionary}
       />
       <NavigationSection dictionary={dictionary} locale={locale} />
-      <ConceptSection dictionary={dictionary} />
-      <AboutSection dictionary={dictionary} />
-      <WorksSection dictionary={dictionary} />
-      <MembersSection dictionary={dictionary} locale={locale} />
-      <AccessSection dictionary={dictionary} />
-      <ArchivesSection dictionary={dictionary} />
-      <FooterSection dictionary={dictionary} />
+      <div className="relative">
+        <div
+          aria-hidden="true"
+          className="pointer-events-none sticky top-[50px] z-40 -mb-12 h-12 bg-gradient-to-b from-[#F1E4EB]/95 via-[#F1E4EB]/55 to-transparent md:top-[74px] md:-mb-16 md:h-16"
+        />
+        <ConceptSection dictionary={dictionary} />
+        <AboutSection dictionary={dictionary} />
+        <WorksSection dictionary={dictionary} />
+        <MembersSection dictionary={dictionary} locale={locale} />
+        <AccessSection dictionary={dictionary} />
+        <ArchivesSection dictionary={dictionary} />
+        <FooterSection dictionary={dictionary} />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none sticky bottom-0 z-40 h-16 bg-gradient-to-t from-[#F1E4EB]/95 via-[#F1E4EB]/55 to-transparent md:h-20"
+        />
+      </div>
     </main>
   );
 }

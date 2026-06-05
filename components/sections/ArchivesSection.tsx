@@ -1,3 +1,4 @@
+import { RevealOnScroll } from "@/components/RevealOnScroll";
 import { type Locale, type dictionaries } from "@/lib/i18n";
 
 type ArchivesSectionProps = {
@@ -52,29 +53,31 @@ export function ArchivesSection({ dictionary }: ArchivesSectionProps) {
   ];
 
   return (
-    <section className="px-6 py-20 md:px-8 bg-[rgb(250,242,245)]" id="archives">
-      <div className="mx-auto max-w-6xl">
-        <h2 className="text-center text-3xl md:text-4xl font-medium font-playpen-sans">
-          {dictionary.sections.archives.title}
-        </h2>
+    <section className="px-6 py-20 md:px-8" id="archives">
+      <RevealOnScroll>
+        <div className="mx-auto max-w-6xl">
+          <h2 className="text-center text-3xl md:text-4xl font-medium font-playpen-sans">
+            {dictionary.sections.archives.title}
+          </h2>
 
-        <div className="mt-12 grid md:mt-16 md:grid-cols-[1fr_2px_1fr]">
-          <div className="flex flex-col items-center  pb-12 md:pb-0 md:pr-10 lg:pr-16">
-            <h3 className="mb-8 text-center text-base lowercase md:text-lg font-medium font-playpen-sans">
-              iii exhibition
-            </h3>
-            <ArchiveTitles titles={iiiExhibitionTitles} />
-          </div>
-          <div className="hidden md:block w-[2px] h-full bg-[linear-gradient(to_bottom,#973A3C_38%,#15394D_100%)] opacity-50"></div>
+          <div className="mt-12 grid md:mt-16 md:grid-cols-[1fr_2px_1fr]">
+            <div className="flex flex-col items-center pb-12 md:pb-0 md:pr-10 lg:pr-16">
+              <h3 className="mb-8 text-center text-base lowercase md:text-lg font-medium font-playpen-sans">
+                iii exhibition
+              </h3>
+              <ArchiveTitles titles={iiiExhibitionTitles} />
+            </div>
+            <div className="hidden md:block w-[2px] h-full bg-[linear-gradient(to_bottom,#973A3C_38%,#15394D_100%)] opacity-50"></div>
 
-          <div className="flex flex-col items-center md:pl-10 lg:pl-16">
-            <h3 className="mb-8 text-center text-base lowercase md:text-lg font-medium font-playpen-sans">
-              beginning
-            </h3>
-            <ArchiveTitles titles={beginningTitles} />
+            <div className="flex flex-col items-center md:pl-10 lg:pl-16">
+              <h3 className="mb-8 text-center text-base lowercase md:text-lg font-medium font-playpen-sans">
+                beginning
+              </h3>
+              <ArchiveTitles titles={beginningTitles} />
+            </div>
           </div>
         </div>
-      </div>
+      </RevealOnScroll>
     </section>
   );
 }
