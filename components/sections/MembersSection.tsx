@@ -15,7 +15,7 @@ export function MembersSection({ dictionary, locale }: MembersSectionProps) {
     >
       <RevealOnScroll>
         <div className="mx-auto max-w-6xl pt-10 text-center">
-          <h2 className="mb-12 font-playpen-sans text-5xl uppercase tracking-tight">
+          <h2 className="mb-12 font-puritan text-5xl uppercase tracking-tight">
             {dictionary.sections.members.title}
           </h2>
           <div className="grid gap-6">

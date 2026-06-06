@@ -15,13 +15,13 @@ export function AccessSection({ dictionary }: AccessSectionProps) {
     >
       <RevealOnScroll>
         <div className="mx-auto max-w-6xl pt-10 text-center">
-          <h2 className="mb-12 font-playpen-sans text-5xl uppercase tracking-tight">
+          <h2 className="mb-12 font-puritan text-5xl uppercase tracking-tight">
             {access.title}
           </h2>
 
           {/* Map */}
           <img
-            src="/map.svg"
+            src="/map_ver2.png"
             alt="Map"
             className="mx-auto w-full max-w-lg rounded-2xl bg-white"
           />

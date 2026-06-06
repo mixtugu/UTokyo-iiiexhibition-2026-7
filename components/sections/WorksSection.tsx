@@ -20,10 +20,10 @@ export function WorksSection({ dictionary }: WorksSectionProps) {
     >
       <RevealOnScroll>
         <div className="mx-auto flex max-w-6xl flex-col items-center gap-16 text-center">
-          <h2 className="font-playpen-sans text-5xl uppercase text-foreground md:text-[50px]">
+          <h2 className="font-puritan text-5xl uppercase text-foreground md:text-[50px]">
             {dictionary.sections.works.title}
           </h2>
-          <p className="font-zen-kaku max-w-4xl text-lg leading-normal text-foreground/75 md:text-2xl">
+          <p className="font-zen-kaku max-w-4xl text-lg leading-normal text-foreground/75">
             {dictionary.sections.works.body}
           </p>
           <div className="flex flex-wrap justify-center gap-10 md:gap-16">
