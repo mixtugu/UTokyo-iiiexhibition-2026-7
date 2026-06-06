@@ -12,6 +12,30 @@
   --font-zen-kaku: "Zen Kaku Gothic New", sans-serif;
   --font-shippori: "Shippori Mincho", serif;
   --font-puritan: "Puritan", sans-serif;
+
+  --animate-tayutau:
+    tayutau 2s cubic-bezier(0.13, 0.92, 0.36, 1) 1 both,
+    float 8s 2s ease-in-out infinite;
+
+  @keyframes tayutau {
+    0% {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
 }
 
 @layer base {
