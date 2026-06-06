@@ -35,7 +35,7 @@ export function MainPageSection({
       <div className="absolute bottom-0 left-0 right-0 z-10 flex items-end justify-between px-4 pb-6 md:px-12 md:pb-14">
         {/* 左下 - 展示タイトル（縦書き） */}
         <div className="[writing-mode:vertical-rl] rotate-[-0.8deg] border border-black/8 bg-white/90 px-1.5 py-2.5 font-shippori shadow-[4px_5px_12px_rgba(0,0,0,0.22)] backdrop-blur-xs md:px-2.5 md:py-4">
-          <h1 className="m-0 text-[clamp(1.8rem,5vw,5rem)] font-medium leading-[1.1] tracking-[0.15em]">
+          <h1 className="m-0 origin-center scale-x-[1.15] text-[clamp(1.8rem,5vw,5rem)] font-medium leading-[1.1] tracking-[0.15em]">
             東京大学制作展
           </h1>
         </div>
@@ -54,7 +54,10 @@ export function MainPageSection({
 
           {/* 会場 */}
           <div className="rotate-[-0.5deg] border border-black/8 bg-white/90 px-3 py-2 text-right font-shippori shadow-[4px_5px_12px_rgba(0,0,0,0.22)] backdrop-blur-xs md:px-5 md:py-3.5">
-            <p className="m-0 text-[clamp(0.75rem,2vw,1.1rem)] leading-[1.8] text-black/70">
+            <p
+              className="m-0 text-[clamp(0.75rem,2vw,1.1rem)] leading-[1.8] text-foreground"
+              style={{ opacity: 0.85 }}
+            >
               @東京大学本郷キャンパス情報学環本館
               <br />
               オープンスタジオ, 地下1階
