@@ -58,9 +58,9 @@ export function MainPageSection({
               className="m-0 text-[clamp(0.75rem,2vw,1.1rem)] leading-[1.8] text-foreground"
               style={{ opacity: 0.85 }}
             >
-              @東京大学本郷キャンパス情報学環本館
+              @{dictionary.sections.main.location1}
               <br />
-              オープンスタジオ, 地下1階
+              {dictionary.sections.main.location2}
             </p>
           </div>
 
