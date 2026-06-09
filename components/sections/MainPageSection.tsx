@@ -1,14 +1,10 @@
 import { type Locale, type dictionaries } from "@/lib/i18n";
 
 type MainPageSectionProps = {
-  alternateLocale: Locale;
   dictionary: (typeof dictionaries)[Locale];
 };
 
-export function MainPageSection({
-  alternateLocale,
-  dictionary,
-}: MainPageSectionProps) {
+export function MainPageSection({ dictionary }: MainPageSectionProps) {
   return (
     <section
       className="relative flex min-h-svh flex-col overflow-hidden"
@@ -50,6 +46,9 @@ export function MainPageSection({
             <p className="mt-0.5 mb-0 text-[clamp(0.85rem,2.5vw,1.5rem)] font-semibold md:mt-1">
               11:00 - 19:00
             </p>
+            <p className="mt-0.5 mb-0 text-[clamp(0.65rem,1.8vw,0.95rem)] font-medium md:mt-1">
+              {dictionary.sections.main.finalDayHours}
+            </p>
           </div>
 
           {/* 会場 */}
@@ -69,7 +68,7 @@ export function MainPageSection({
             href="#about"
             className="block whitespace-nowrap rotate-[-0.5deg] rounded-full bg-[linear-gradient(135deg,#e89aae,#DA8387)] px-7 py-2.5 text-center font-zen-kaku text-[clamp(0.85rem,2vw,1.2rem)] font-bold text-white opacity-90 shadow-[0_4px_16px_rgba(218,131,135,0.35)]"
           >
-            入場登録
+            {dictionary.sections.about.registrationButton}
           </a>
 
         </div>

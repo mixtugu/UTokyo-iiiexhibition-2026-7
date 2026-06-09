@@ -26,6 +26,7 @@ export type Dictionary = {
       label: string;
       lead: string;
       date: string;
+      finalDayHours: string;
       location1: string;
       location2: string;
     };

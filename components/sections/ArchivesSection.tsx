@@ -18,7 +18,7 @@ function ArchiveTitles({ titles }: { titles: string[] }) {
 export function ArchivesSection({ dictionary }: ArchivesSectionProps) {
   // 仮のテキストデータ
   const iiiExhibitionTitles = [
-    "iiiExhibition 2026 : あることないこと",
+    "iiiExhibition 2025 : あることないこと",
     "iiiExhibition 2024 : 付いて離れて",
     "iiiExhibition 2023 : 學藝運動",
     "iiiExhibition 2022 : Emulsion",
