@@ -34,7 +34,9 @@ export function AboutSection({ dictionary }: AboutSectionProps) {
           </p>
           <a
             className="font-zen-kaku inline-block rounded-[28px] bg-gradient-to-br from-[#e89aae] to-[#DA8387] px-14 py-6 text-2xl font-bold text-white leading-none shadow-[0_8px_24px_rgba(218,131,135,0.35)] transition-transform duration-300 hover:scale-105 md:text-[40px]"
-            href="#"
+            href="https://iii-exhibition2026beginning.peatix.com/view"
+            rel="noreferrer"
+            target="_blank"
           >
             {dictionary.sections.about.registrationButton}
           </a>

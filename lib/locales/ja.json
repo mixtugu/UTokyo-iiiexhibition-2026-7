@@ -33,7 +33,8 @@
     },
     "works": {
       "title": "Works",
-      "body": "画像をクリックすると、作品の詳細が表示されます。"
+      "body": "作品情報は近日公開予定です。",
+      "comingSoon": "Coming soon"
     },
     "members": {
       "title": "Members",
