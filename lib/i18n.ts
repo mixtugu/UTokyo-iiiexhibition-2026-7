@@ -43,6 +43,7 @@ export type Dictionary = {
     works: {
       title: string;
       body: string;
+      comingSoon: string;
     };
     members: {
       title: string;

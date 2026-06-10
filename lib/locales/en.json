@@ -33,7 +33,8 @@
     },
     "works": {
       "title": "Works",
-      "body": "Click on an image to view the details of the work."
+      "body": "Works will be announced soon.",
+      "comingSoon": "Coming soon"
     },
     "members": {
       "title": "Members",

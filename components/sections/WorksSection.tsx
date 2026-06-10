@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { RevealOnScroll } from "@/components/RevealOnScroll";
 import { type Locale, type dictionaries } from "@/lib/i18n";
 
@@ -7,9 +6,9 @@ type WorksSectionProps = {
 };
 
 const works = [
-  { id: 1, src: "/works_dummy_1.svg", rotate: "-rotate-2" },
-  { id: 2, src: "/works_dummy_2.svg", rotate: "rotate-1" },
-  { id: 3, src: "/works_dummy_3.svg", rotate: "-rotate-1" },
+  { id: 1, rotate: "-rotate-2" },
+  { id: 2, rotate: "rotate-1" },
+  { id: 3, rotate: "-rotate-1" },
 ];
 
 export function WorksSection({ dictionary }: WorksSectionProps) {
@@ -33,14 +32,10 @@ export function WorksSection({ dictionary }: WorksSectionProps) {
                 key={work.id}
                 type="button"
               >
-                <div className="overflow-hidden rounded-full shadow-[4px_6px_20px_rgba(0,0,0,0.18)] ring-[6px] ring-white">
-                  <Image
-                    alt={`Work ${work.id}`}
-                    className="block h-[240px] w-[240px] object-cover md:h-[280px] md:w-[280px]"
-                    height={280}
-                    src={work.src}
-                    width={280}
-                  />
+                <div className="flex h-[240px] w-[240px] items-center justify-center overflow-hidden rounded-full bg-white/85 px-8 shadow-[4px_6px_20px_rgba(0,0,0,0.18)] ring-[6px] ring-white md:h-[280px] md:w-[280px]">
+                  <span className="font-puritan text-3xl uppercase tracking-[0.08em] text-foreground/70 md:text-4xl">
+                    {dictionary.sections.works.comingSoon}
+                  </span>
                 </div>
               </button>
             ))}
