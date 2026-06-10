@@ -39,6 +39,14 @@ export function AccessSection({ dictionary }: AccessSectionProps) {
               <p className="font-zen-kaku whitespace-pre-line text-lg leading-relaxed text-foreground/75">
                 {access.venue.detail}
               </p>
+              <a
+                href={access.link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-zen-kaku text-lg leading-relaxed text-pink underline underline-offset-4 transition-opacity hover:opacity-70"
+              >
+                {access.link.label}
+              </a>
             </div>
 
             {/* Transport */}
