@@ -31,7 +31,7 @@ export const memberGroups: MemberGroup[] = [
       {
         id: "Inohara_taichi",
         ja: "猪原 大智",
-        en: "Inohara taichi",
+        en: "Taichi Inohara",
         profileLink: "",
       },
       {
@@ -64,7 +64,7 @@ export const memberGroups: MemberGroup[] = [
       {
         id: "Tsumada Masataka",
         ja: "塚田 昌孝",
-        en: "Tsumada Masataka",
+        en: "Masataka Tsukada",
         profileLink: ""
       },
     ]
@@ -214,7 +214,7 @@ export const memberGroups: MemberGroup[] = [
       {
         id: "Ryouichi_Satou",
         ja: "佐藤 遼一",
-        en: "Ryouichi Satou",
+        en: "Ryoichi Sato",
         profileLink: ""
       }
     ]
@@ -229,25 +229,25 @@ export const memberGroups: MemberGroup[] = [
       {
         id: "Maruse_Rikuto",
         ja: "丸㔟 陸斗",
-        en: "Maruse Rikuto",
+        en: "Rikuto Maruse",
         profileLink: ""
       },
       {
         id: "Sasaki_Rinji",
         ja: "佐々木 凛士",
-        en: "Sasaki Rinji",
+        en: "Rinji Sasaki",
         profileLink: ""
       },
       {
         id: "Kawaji_Kengo",
         ja: "河路 健吾",
-        en: "Kawaji Kengo",
+        en: "Kengo Kawaji",
         profileLink: ""
       },
       {
         id: "Fukaya_Taisei",
         ja: "深谷 太聖",
-        en: "Fukaya Taisei",
+        en: "Taisei Fukaya",
         profileLink: ""
       }
     ]
@@ -301,13 +301,13 @@ export const memberGroups: MemberGroup[] = [
       {
         id: "Kishimoto_Aino",
         ja: "岸本 安維乃",
-        en: "Kishimoto Aino",
+        en: "Aino Kishimoto",
         profileLink: ""
       },
       {
         id: "Mikami_Hinata",
         ja: "三上 日向汰",
-        en: "Mikami Hinata",
+        en: "Hinata Mikami",
         profileLink: ""
       },
       {
