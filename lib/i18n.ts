@@ -56,6 +56,10 @@ export type Dictionary = {
         detail: string;
       };
       transport: string;
+      link: {
+        label: string;
+        url: string;
+      };
       datetime: {
         title: string;
         value: string;

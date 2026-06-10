@@ -194,9 +194,9 @@ export const memberGroups: MemberGroup[] = [
         profileLink: ""
       },
       {
-        id: "Arata_Kokani",
+        id: "Arata_Kotani",
         ja: "小谷 新太",
-        en: "Arata Kokani",
+        en: "Arata Kotani",
         profileLink: ""
       },
       {
