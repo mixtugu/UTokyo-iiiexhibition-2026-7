@@ -96,7 +96,7 @@ export function MainPageSection({ dictionary }: MainPageSectionProps) {
           {/* 日時 */}
           <div className="rotate-[0.5deg] border border-black/8 bg-white/90 px-3 py-2 text-right font-shippori shadow-[4px_5px_12px_rgba(0,0,0,0.22)] backdrop-blur-xs md:px-5 md:py-3.5">
             <p className="m-0 text-[clamp(0.85rem,2.5vw,1.5rem)] font-bold text-pink">
-              2026.07.10 (金) - 07.13 (月)
+              {dictionary.sections.main.date}
             </p>
             <p className="mt-0.5 mb-0 text-[clamp(0.85rem,2.5vw,1.5rem)] font-semibold md:mt-1">
               11:00 - 19:00
