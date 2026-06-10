@@ -295,7 +295,7 @@ export const memberGroups: MemberGroup[] = [
       {
         id: "Sato_Ryoichi",
         ja: "佐藤 遼一",
-        en: "Sato Ryoichi",
+        en: "Ryoichi Sato",
         profileLink: ""
       },
       {
