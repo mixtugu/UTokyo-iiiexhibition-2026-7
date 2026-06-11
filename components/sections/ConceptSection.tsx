@@ -5,11 +5,16 @@ type ConceptSectionProps = {
   dictionary: (typeof dictionaries)[Locale];
 };
 
-function renderLineBreakHints(text: string) {
-  return text.split("|").map((part, index, parts) => (
-    <span key={`${part}-${index}`}>
-      {part}
-      {index < parts.length - 1 ? <wbr /> : null}
+function renderResponsiveLineBreaks(text: string) {
+  return text.split("\n").map((line, lineIndex, lines) => (
+    <span key={`line-${lineIndex}`}>
+      {line.split("|").map((part, partIndex, parts) => (
+        <span key={`${lineIndex}-${partIndex}`}>
+          <span className="whitespace-nowrap">{part}</span>
+          {partIndex < parts.length - 1 ? <wbr /> : null}
+        </span>
+      ))}
+      {lineIndex < lines.length - 1 ? <br /> : null}
     </span>
   ));
 }
@@ -42,7 +47,7 @@ export function ConceptSection({ dictionary }: ConceptSectionProps) {
               style={{ animation: "concept-float 7s ease-in-out infinite" }}
             />
             <p className="relative whitespace-pre-line text-lg leading-8 text-foreground/75 [word-break:keep-all] md:leading-10">
-              {renderLineBreakHints(dictionary.sections.concept.body)}
+              {renderResponsiveLineBreaks(dictionary.sections.concept.body)}
             </p>
           </div>
         </div>
