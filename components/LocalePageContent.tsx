@@ -34,7 +34,7 @@ export function LocalePageContent({ locale }: LocalePageContentProps) {
         <FooterSection dictionary={dictionary} />
         <div
           aria-hidden="true"
-          className="pointer-events-none sticky bottom-0 z-40 h-16 bg-gradient-to-t from-[#F1E4EB]/95 via-[#F1E4EB]/55 to-transparent md:h-20"
+          className="pointer-events-none sticky bottom-0 z-40 mt-[-64px] h-16 bg-gradient-to-t from-[#F1E4EB]/95 via-[#F1E4EB]/55 to-transparent md:h-20"
         />
       </div>
     </main>

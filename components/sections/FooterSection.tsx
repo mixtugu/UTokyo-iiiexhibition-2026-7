@@ -24,7 +24,7 @@ export function FooterSection({ dictionary }: FooterSectionProps) {
     }
   };
   return (
-    <footer className="px-6 pt-2 pb-8 md:px-8 bg-[#F5E6EE]">
+    <footer className="relative px-6 pt-2 pb-8 z-80 md:px-8 bg-[#F5E6EE]">
       <div className="mx-auto flex flex-col gap-6 max-w-6xl pt-8 text-sm text-[#605B53] items-center justify-between">
         <p className="font-bold text-xl">© 2026 iii Exhibition</p>
         <ul className="flex gap-6">
