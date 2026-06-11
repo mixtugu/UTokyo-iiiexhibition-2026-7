@@ -24,14 +24,14 @@ export function FooterSection({ dictionary }: FooterSectionProps) {
     }
   };
   return (
-    <footer className="px-6 pt-2 pb-8 md:px-8 bg-[#F5E6EE]">
-      <div className="mx-auto flex flex-col gap-6 max-w-6xl pt-8 text-sm text-foreground items-center justify-between">
+    <footer className="relative px-6 pt-2 pb-8 z-80 md:px-8 bg-[#F5E6EE]">
+      <div className="mx-auto flex flex-col gap-6 max-w-6xl pt-8 text-sm text-[#605B53] items-center justify-between">
         <p className="font-bold text-xl">© 2026 iii Exhibition</p>
         <ul className="flex gap-6">
           <li>
             <button
               type="button"
-              className="w-10 h-10 flex items-center justify-center bg-foreground rounded-full cursor-pointer"
+              className="w-10 h-10 flex items-center justify-center bg-[#333333] rounded-full cursor-pointer"
               onClick={share}
               aria-label="Share"
             >
@@ -40,7 +40,7 @@ export function FooterSection({ dictionary }: FooterSectionProps) {
           </li>
           <li>
             <Link
-              className="w-10 h-10 flex items-center justify-center bg-foreground rounded-full"
+              className="w-10 h-10 flex items-center justify-center bg-[#333333] rounded-full"
               href="https://x.com/iiiexhibition?s=20"
               target="_blank"
               rel="noopener noreferrer"
