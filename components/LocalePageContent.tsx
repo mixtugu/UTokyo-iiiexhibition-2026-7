@@ -7,7 +7,7 @@ import { MainPageSection } from "@/components/sections/MainPageSection";
 import { MembersSection } from "@/components/sections/MembersSection";
 import { NavigationSection } from "@/components/sections/NavigationSection";
 import { WorksSection } from "@/components/sections/WorksSection";
-import { defaultLocale, dictionaries, type Locale } from "@/lib/i18n";
+import { dictionaries, type Locale } from "@/lib/i18n";
 
 type LocalePageContentProps = {
   locale: Locale;
@@ -15,14 +15,10 @@ type LocalePageContentProps = {
 
 export function LocalePageContent({ locale }: LocalePageContentProps) {
   const dictionary = dictionaries[locale];
-  const alternateLocale = locale === defaultLocale ? "en" : defaultLocale;
 
   return (
     <main className="min-h-svh" lang={locale}>
-      <MainPageSection
-        alternateLocale={alternateLocale}
-        dictionary={dictionary}
-      />
+      <MainPageSection dictionary={dictionary} />
       <NavigationSection dictionary={dictionary} locale={locale} />
       <div className="relative">
         <div

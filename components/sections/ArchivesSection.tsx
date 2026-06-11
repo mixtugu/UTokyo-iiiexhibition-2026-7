@@ -18,7 +18,7 @@ function ArchiveTitles({ titles }: { titles: string[] }) {
 export function ArchivesSection({ dictionary }: ArchivesSectionProps) {
   // 仮のテキストデータ
   const iiiExhibitionTitles = [
-    "iiiExhibition 2026 : あることないこと",
+    "iiiExhibition 2025 : あることないこと",
     "iiiExhibition 2024 : 付いて離れて",
     "iiiExhibition 2023 : 學藝運動",
     "iiiExhibition 2022 : Emulsion",
@@ -53,15 +53,16 @@ export function ArchivesSection({ dictionary }: ArchivesSectionProps) {
   ];
 
   return (
-    <section className="px-6 py-20 md:px-8 " id="archives">
-      <div className="mx-auto max-w-6xl">
-        <h2 className="text-center text-3xl md:text-4xl font-medium font-playpen-sans">
-          {dictionary.sections.archives.title}
-        </h2>
+    <section className="px-6 py-20 md:px-8" id="archives">
+      <RevealOnScroll>
+        <div className="mx-auto max-w-6xl">
+          <h2 className="text-center text-3xl md:text-4xl font-medium font-puritan">
+            {dictionary.sections.archives.title}
+          </h2>
 
           <div className="mt-12 grid md:mt-16 md:grid-cols-[1fr_2px_1fr]">
-            <div className="flex flex-col items-center  pb-12 md:pb-0 md:pr-10 lg:pr-16">
-              <h3 className="mb-8 text-center text-base lowercase md:text-lg font-medium font-playpen-sans">
+            <div className="flex flex-col items-center pb-12 md:pb-0 md:pr-10 lg:pr-16">
+              <h3 className="mb-8 text-center text-base lowercase md:text-lg font-medium font-puritan">
                 iii exhibition
               </h3>
               <ArchiveTitles titles={iiiExhibitionTitles} />
@@ -69,7 +70,7 @@ export function ArchivesSection({ dictionary }: ArchivesSectionProps) {
             <div className="hidden md:block w-[2px] h-full bg-[linear-gradient(to_bottom,#973A3C_38%,#15394D_100%)] opacity-50"></div>
 
             <div className="flex flex-col items-center md:pl-10 lg:pl-16">
-              <h3 className="mb-8 text-center text-base lowercase md:text-lg font-medium font-playpen-sans">
+              <h3 className="mb-8 text-center text-base lowercase md:text-lg font-medium font-puritan">
                 beginning
               </h3>
               <ArchiveTitles titles={beginningTitles} />

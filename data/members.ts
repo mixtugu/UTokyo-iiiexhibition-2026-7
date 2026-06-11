@@ -2,6 +2,7 @@ export type Member = {
   id: string;
   ja: string;
   en: string;
+  profileLink: string;
 };
 
 export type MemberGroup = {
@@ -22,24 +23,28 @@ export const memberGroups: MemberGroup[] = [
     },
     members: [
       {
-        id: "Michal_Wong_Kam",
+        id: "Michael_Wong_Kam",
         ja: "ウォンカム 真生路",
-        en: "Michal Wong Kam",
+        en: "Michael Wong Kam",
+        profileLink: "",
       },
       {
-        id: "Inohara_taichi",
+        id: "Taichi_Inohara",
         ja: "猪原 大智",
-        en: "Inohara taichi",
+        en: "Taichi Inohara",
+        profileLink: "",
       },
       {
-        id: "Dou_Jingtong",
+        id: "Jigtong_Dou",
         ja: "竇 靖童",
-        en: "Dou Jingtong",
+        en: "Jigtong Dou",
+        profileLink: "",
       },
       {
         id: "Hiromi_Imawaka",
         ja: "今若 広美",
         en: "Hiromi Imawaka",
+        profileLink: "",
       }
     ],
   },
@@ -53,12 +58,14 @@ export const memberGroups: MemberGroup[] = [
       {
         id: "Ryuhei_Sugimoto",
         ja: "杉本 隆平",
-        en: "Ryuhei Sugimoto"
+        en: "Ryuhei Sugimoto",
+        profileLink: ""
       },
       {
-        id: "Tsumada Masataka",
+        id: "Masataka_Tsukada",
         ja: "塚田 昌孝",
-        en: "Tsumada Masataka"
+        en: "Masataka Tsukada",
+        profileLink: ""
       },
     ]
   },
@@ -72,27 +79,32 @@ export const memberGroups: MemberGroup[] = [
       {
         id: "Misaki_Kyono",
         ja: "京野 美咲",
-        en: "Misaki Kyono"
+        en: "Misaki Kyono",
+        profileLink: ""
       },
       {
-        id: "Kim_Jaemin",
+        id: "Jaemin_Kim",
         ja: "キム ジェミン",
-        en: "Kim Jaemin"
+        en: "Jaemin Kim",
+        profileLink: ""
       },
       {
-        id: "Lee_Seojung",
+        id: "Seojung_Lee",
         ja: "イ ソジョン",
-        en: "Lee Seojung"
+        en: "Seojung Lee",
+        profileLink: ""
       },
       {
         id: "Mizuki_Ogawa",
         ja: "小川 美杉",
-        en: "Mizuki Ogawa"
+        en: "Mizuki Ogawa",
+        profileLink: ""
       },
             {
         id: "Kenta_Kito",
         ja: "鬼頭 健太",
-        en: "Kenta Kito"
+        en: "Kenta Kito",
+        profileLink: ""
       }
     ]
   },
@@ -106,27 +118,32 @@ export const memberGroups: MemberGroup[] = [
       {
         id: "Haruta_Ogawa",
         ja: "小川 陽大",
-        en: "Haruta Ogawa"
+        en: "Haruta Ogawa",
+        profileLink: ""
       },
       {
         id: "Yuki_Kamon",
         ja: "賀門 祐輝",
-        en: "Yuki Kamon"
+        en: "Yuki Kamon",
+        profileLink: ""
       },
       {
         id: "Yasmin_Hinano_Yamashita",
         ja: "山下 ヤスミン姫名乃",
-        en: "Yasmin Hinano Yamashita"
+        en: "Yasmin Hinano Yamashita",
+        profileLink: ""
       },
       {
         id: "Akane_Koyama",
         ja: "小山 茜",
-        en: "Akane Koyama"
+        en: "Akane Koyama",
+        profileLink: ""
       },
             {
         id: "Yukihiko_Shinobu",
         ja: "信夫 行彦",
-        en: "Yukihiko Shinobu"
+        en: "Yukihiko Shinobu",
+        profileLink: ""
       }
     ]
   },
@@ -140,12 +157,14 @@ export const memberGroups: MemberGroup[] = [
       {
         id: "Hiroaki_Tsuneizumi",
         ja: "常泉 宏陽",
-        en: "Hiroaki Tsuneizumi"
+        en: "Hiroaki Tsuneizumi",
+        profileLink: ""
       },
       {
         id: "Michitoshi_Tsubaki",
         ja: "椿 道智",
-        en: "Michitoshi Tsubaki"
+        en: "Michitoshi Tsubaki",
+        profileLink: ""
       }
     ]
   },
@@ -159,37 +178,44 @@ export const memberGroups: MemberGroup[] = [
       {
         id: "Meika_Mizuno",
         ja: "水野 明香",
-        en: "Meika Mizuno"
+        en: "Meika Mizuno",
+        profileLink: ""
       },
       {
         id: "Yufei_Wu",
         ja: "武 雨菲",
-        en: "Yufei Wu"
+        en: "Yufei Wu",
+        profileLink: ""
       },
       {
         id: "Naohiro_Sudo",
         ja: "須藤 均寛",
-        en: "Naohiro Sudo"
+        en: "Naohiro Sudo",
+        profileLink: ""
       },
       {
-        id: "Arata_Kokani",
+        id: "Arata_Kotani",
         ja: "小谷 新太",
-        en: "Arata Kokani"
+        en: "Arata Kotani",
+        profileLink: ""
       },
       {
         id: "Keigo_Toda",
         ja: "戸田 圭吾",
-        en: "Keigo Toda"
+        en: "Keigo Toda",
+        profileLink: ""
       },
       {
         id: "Kota_Murakami",
         ja: "村上 滉太",
-        en: "Kota Murakami"
+        en: "Kota Murakami",
+        profileLink: ""
       },
       {
-        id: "Ryouichi_Satou",
+        id: "Ryoichi_Sato",
         ja: "佐藤 遼一",
-        en: "Ryouichi Satou"
+        en: "Ryoichi Sato",
+        profileLink: ""
       }
     ]
   },
@@ -201,24 +227,28 @@ export const memberGroups: MemberGroup[] = [
     },
     members : [
       {
-        id: "Maruse_Rikuto",
+        id: "Rikuto_Maruse",
         ja: "丸㔟 陸斗",
-        en: "Maruse Rikuto"
+        en: "Rikuto Maruse",
+        profileLink: ""
       },
       {
-        id: "Sasaki_Rinji",
+        id: "Rinji_Sasaki",
         ja: "佐々木 凛士",
-        en: "Sasaki Rinji"
+        en: "Rinji Sasaki",
+        profileLink: ""
       },
       {
-        id: "Kawaji_Kengo",
+        id: "Kengo_Kawaji",
         ja: "河路 健吾",
-        en: "Kawaji Kengo"
+        en: "Kengo Kawaji",
+        profileLink: ""
       },
       {
-        id: "Fukaya_Taisei",
+        id: "Taisei_Fukaya",
         ja: "深谷 太聖",
-        en: "Fukaya Taisei"
+        en: "Taisei Fukaya",
+        profileLink: ""
       }
     ]
   },
@@ -232,22 +262,26 @@ export const memberGroups: MemberGroup[] = [
       {
         id: "Haruna_Nohara",
         ja: "野原 春菜",
-        en: "Haruna Nohara"
+        en: "Haruna Nohara",
+        profileLink: ""
       },
       {
         id: "Tadasuke_Koshimbo",
         ja: "光真坊 忠佑",
-        en: "Tadasuke Koshimbo"
+        en: "Tadasuke Koshimbo",
+        profileLink: ""
       },
       {
         id: "Gao_Jiaqi",
         ja: "コウ カキ",
-        en: "Gao Jiaqi"
+        en: "Gao Jiaqi",
+        profileLink: ""
       },
       {
         id: "Yayoi_Okamoto",
         ja: "岡本 弥生",
-        en: "Yayoi Okamoto"
+        en: "Yayoi Okamoto",
+        profileLink: ""
       }
     ]
   },
@@ -261,32 +295,38 @@ export const memberGroups: MemberGroup[] = [
       {
         id: "Sato_Ryoichi",
         ja: "佐藤 遼一",
-        en: "Sato Ryoichi"
+        en: "Ryoichi Sato",
+        profileLink: ""
       },
       {
-        id: "Kishimoto_Aino",
+        id: "Aino_Kishimoto",
         ja: "岸本 安維乃",
-        en: "Kishimoto Aino"
+        en: "Aino Kishimoto",
+        profileLink: ""
       },
       {
-        id: "Mikami_Hinata",
+        id: "Hinata_Mikami",
         ja: "三上 日向汰",
-        en: "Mikami Hinata"
+        en: "Hinata Mikami",
+        profileLink: ""
       },
       {
         id: "Hou_Yancheng",
         ja: "侯 彦丞",
-        en: "Hou Yancheng"
+        en: "Hou Yancheng",
+        profileLink: ""
       },
       {
         id: "Yugo_Tamakia",
         ja: "田牧 悠吾",
-        en: "Yugo Tamaki"
+        en: "Yugo Tamaki",
+        profileLink: ""
       },
       {
         id: "Hinako_Makita",
         ja: "牧田 陽奈子",
-        en: "Hinako Makita"
+        en: "Hinako Makita",
+        profileLink: ""
       }
     ]
   },
@@ -300,38 +340,45 @@ export const memberGroups: MemberGroup[] = [
       {
         id: "Takeshi_Naemura",
         ja: "苗村 健",
-        en: "Takeshi Naemura"
+        en: "Takeshi Naemura",
+        profileLink: ""
       },
       {
         id: "Hidenori_Watanabe",
         ja: "渡邉 英徳",
-        en: "Hidenori Watanabe"
+        en: "Hidenori Watanabe",
+        profileLink: ""
       },
       {
         id: "Yasuaki_Kakehi",
         ja: "筧 康明",
-        en: "Yasuaki Kakehi"
-      },
-      {
-        id: "Daisuke_Kuramoto",
-        ja: "倉本 大資",
-        en: "Daisuke Kuramoto"
-      },
-      {
-        id: "Takafumi_Morita",
-        ja: "森田 崇文",
-        en: "Takafumi Morita"
+        en: "Yasuaki Kakehi",
+        profileLink: ""
       },
       {
         id: "Koki_Sone",
         ja: "曽根 光揮",
-        en: "Koki Sone"
+        en: "Koki Sone",
+        profileLink: ""
       },
       {
         id: "Shohei_Takei",
         ja: "武井 祥平",
-        en: "Shohei Takei"
-      }
+        en: "Shohei Takei",
+        profileLink: ""
+      },
+      {
+        id: "Takafumi_Morita",
+        ja: "森田 崇文",
+        en: "Takafumi Morita",
+        profileLink: ""
+      },
+      {
+        id: "Daisuke_Kuramoto",
+        ja: "倉本 大資",
+        en: "Daisuke Kuramoto",
+        profileLink: ""
+      },
     ]
   }
 ];

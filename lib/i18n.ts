@@ -26,6 +26,7 @@ export type Dictionary = {
       label: string;
       lead: string;
       date: string;
+      finalDayHours: string;
       location1: string;
       location2: string;
     };
@@ -42,6 +43,7 @@ export type Dictionary = {
     works: {
       title: string;
       body: string;
+      comingSoon: string;
     };
     members: {
       title: string;
@@ -55,6 +57,10 @@ export type Dictionary = {
         detail: string;
       };
       transport: string;
+      link: {
+        label: string;
+        url: string;
+      };
       datetime: {
         title: string;
         value: string;

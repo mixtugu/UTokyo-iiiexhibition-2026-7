@@ -16,9 +16,10 @@
     "main": {
       "label": "Main Page",
       "lead": "main page",
-      "date": "2026.7.10 Fri - 2026.7.13 Mon",
+      "date": "2026.07.10 (Fri) - 07.13 (Mon)",
+      "finalDayHours": "Open until 17:00 on the final day",
       "location1": "The University of Tokyo, Hongo Campus",
-      "location2": "Open Studio, iii UTokyo"
+      "location2": "iii Main Building, B1F\nOpen Studio"
     },
     "concept": {
       "title": "Concept",
@@ -26,13 +27,14 @@
     },
     "about": {
       "title": "About",
-      "body": "The UTokyo iii Exhibition is an exhibition exploring the fusion of technology and art.\nSupervised by faculty in the field of information and media art, the exhibition is planned, produced, and operated primarily by students of the Graduate School of Interdisciplinary Information Studies at the University of Tokyo, along with students from a diverse range of disciplines.",
-      "registration": "Registration is required for entry.\nWalk-in registration is available on the day, but pre-registration is recommended as crowds are expected.",
+      "body": "The UTokyo iii Exhibition is an exhibition |exploring the fusion of technology and art.\nSupervised by faculty |in the field of information| and media art, |the exhibition is planned, produced, and operated primarily by students |of the Graduate School of Interdisciplinary Information Studies at the University of Tokyo, |along with students from a diverse range of disciplines.",
+      "registration": "Registration is required for entry.\nWalk-in registration is available on the day, |but pre-registration is recommended |as crowds are expected.",
       "registrationButton": "Register"
     },
     "works": {
       "title": "Works",
-      "body": "Click on an image to view the details of the work."
+      "body": "Works will be announced soon.",
+      "comingSoon": "Coming soon"
     },
     "members": {
       "title": "Members",
@@ -43,12 +45,16 @@
       "venue": {
         "title": "Venue",
         "name": "The University of Tokyo, Hongo Campus",
-        "detail": "Interfaculty Initiative in Information Studies Main Building, B1F\nOpen Studio"
+        "detail": "Interfaculty Initiative in Information Studies Main Building, B1F"
       },
-      "transport": "15 min walk from Nezu Station (Tokyo Metro Chiyoda Line)\n13 min walk from Todaimae Station (Tokyo Metro Namboku Line)\n8 min walk from Hongo-Sanchome Station (Tokyo Metro Marunouchi Line / Toei Oedo Line)",
+      "transport": "15 min walk from Nezu Station (Tokyo Metro Chiyoda Line)\n13 min walk from Todaimae Station (Tokyo Metro Nanboku Line)\n8 min walk from Hongo-Sanchome Station (Tokyo Metro Marunouchi Line / Toei Oedo Line)",
+      "link": {
+        "label": "Open Studio",
+        "url": "https://openstudio-utokyo.com/access/"
+      },
       "datetime": {
         "title": "Dates",
-        "value": "2026.7.10 (Fri) - 2026.7.13 (Mon)\n11:00 - 19:00"
+        "value": "2026.7.10 (Fri) - 2026.7.13 (Mon)\n11:00 - 19:00\nOpen until 17:00 on the final day"
       },
       "organizer": {
         "title": "Organizer",

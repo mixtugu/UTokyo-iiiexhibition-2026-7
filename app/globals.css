@@ -1,15 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&family=Shippori+Mincho:wght@400;500;600;700;800&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&family=Puritan:wght@400;700&family=Shippori+Mincho:wght@400;500;600;700;800&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --color-background: #ffffff;
-  --color-foreground: #000000;
+  --color-background: #F7F0F0;
+  --color-foreground: #726D67;
   --color-muted: #ffffff;
-  --color-accent: #111111;
-  --color-pink: #DF6AA7;
+  --color-accent: #726D67;
+  --color-pink: #DA8387;
+  --color-green: #96D2BB; 
   --font-playpen-sans: "Playpen Sans", cursive;
   --font-zen-kaku: "Zen Kaku Gothic New", sans-serif;
   --font-shippori: "Shippori Mincho", serif;
+  --font-puritan: "Puritan", sans-serif;
+
+  --animate-tayutau:
+    tayutau 2s cubic-bezier(0.13, 0.92, 0.36, 1) 1 both,
+    float 8s 2s ease-in-out infinite;
+
+  @keyframes tayutau {
+    0% {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
 }
 
 @layer base {

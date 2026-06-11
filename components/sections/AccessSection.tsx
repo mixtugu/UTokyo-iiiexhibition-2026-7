@@ -15,15 +15,15 @@ export function AccessSection({ dictionary }: AccessSectionProps) {
     >
       <RevealOnScroll>
         <div className="mx-auto max-w-6xl pt-10 text-center">
-          <h2 className="mb-12 font-playpen-sans text-5xl uppercase tracking-tight">
+          <h2 className="mb-12 font-puritan text-5xl uppercase tracking-tight">
             {access.title}
           </h2>
 
           {/* Map */}
           <img
-            src="/map.svg"
+            src="/map_new.png"
             alt="Map"
-            className="mx-auto w-full max-w-lg rounded-2xl bg-white"
+            className="mx-auto w-full max-w-2xl rounded-2xl bg-white"
           />
 
           {/* Info */}
@@ -39,6 +39,14 @@ export function AccessSection({ dictionary }: AccessSectionProps) {
               <p className="font-zen-kaku whitespace-pre-line text-lg leading-relaxed text-foreground/75">
                 {access.venue.detail}
               </p>
+              <a
+                href={access.link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-zen-kaku text-lg leading-relaxed text-pink underline underline-offset-4 transition-opacity hover:opacity-70"
+              >
+                {access.link.label}
+              </a>
             </div>
 
             {/* Transport */}
