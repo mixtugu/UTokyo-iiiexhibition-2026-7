@@ -54,6 +54,19 @@ export function AccessSection({ dictionary }: AccessSectionProps) {
               </p>
             </div>
 
+            {/* Map */}
+            <div className="flex flex-col gap-1">
+            <p className="font-zen-kaku text-md leading-relaxed text-pink underline underline-offset-4 transition-opacity hover:opacity-70">
+                <a
+                  href={access.map.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {access.map.label}
+                </a>
+              </p>
+            </div>
+
             {/* Datetime */}
             <div className="flex flex-col gap-1">
               <p className="font-zen-kaku py-4 text-2xl font-bold uppercase tracking-wider text-accent">

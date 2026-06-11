@@ -51,6 +51,10 @@
         "label": "情報学環オープンスタジオ",
         "url": "https://openstudio-utokyo.com/access/"
       },
+      "map": {
+        "label": "Google Maps で見る",
+        "url": "https://maps.app.goo.gl/D2m3QpoTWb7rT8nE9"
+      },
       "datetime": {
         "title": "日時",
         "value": "2026.7.10 (金)  - 2026.7.13 (月)\n11:00 - 19:00\n最終日は17:00まで"

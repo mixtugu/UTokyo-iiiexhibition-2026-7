@@ -60,6 +60,10 @@ export type Dictionary = {
         label: string;
         url: string;
       };
+      map: {
+        label: string;
+        url: string;
+      };
       datetime: {
         title: string;
         value: string;
