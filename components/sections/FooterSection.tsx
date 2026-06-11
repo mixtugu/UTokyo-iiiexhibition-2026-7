@@ -31,7 +31,7 @@ export function FooterSection({ dictionary }: FooterSectionProps) {
           <li>
             <button
               type="button"
-              className="w-10 h-10 flex items-center justify-center bg-foreground rounded-full cursor-pointer"
+              className="w-10 h-10 flex items-center justify-center bg-[#333333] rounded-full cursor-pointer"
               onClick={share}
               aria-label="Share"
             >
@@ -40,7 +40,7 @@ export function FooterSection({ dictionary }: FooterSectionProps) {
           </li>
           <li>
             <Link
-              className="w-10 h-10 flex items-center justify-center bg-foreground rounded-full"
+              className="w-10 h-10 flex items-center justify-center bg-[#333333] rounded-full"
               href="https://x.com/iiiexhibition?s=20"
               target="_blank"
               rel="noopener noreferrer"
