@@ -107,7 +107,13 @@ export function MainPageSection({ dictionary }: MainPageSectionProps) {
           </div>
 
           {/* 会場 */}
-          <div className="rotate-[-0.5deg] border border-black/8 bg-white/90 px-3 py-2 text-right font-shippori shadow-[4px_5px_12px_rgba(0,0,0,0.22)] backdrop-blur-xs md:px-5 md:py-3.5">
+          <a
+            href={dictionary.sections.access.link.url}
+            rel="noreferrer"
+            target="_blank"
+            className="block rotate-[-0.5deg] border border-black/8 bg-white/90 px-3 py-2 text-right font-shippori no-underline shadow-[4px_5px_12px_rgba(0,0,0,0.22)] backdrop-blur-xs md:px-5 md:py-3.5"
+            aria-label={dictionary.sections.access.link.label}
+          >
             <p
               className="m-0 text-[clamp(0.75rem,2vw,1.1rem)] leading-[1.8] text-foreground"
               style={{ opacity: 0.85 }}
@@ -116,7 +122,7 @@ export function MainPageSection({ dictionary }: MainPageSectionProps) {
               <br />
               {dictionary.sections.main.location2}
             </p>
-          </div>
+          </a>
 
           {/* 入場登録ボタン */}
           <a
