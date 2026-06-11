@@ -44,12 +44,11 @@
       "title": "Access",
       "venue": {
         "title": "Venue",
-        "name": "The University of Tokyo, Hongo Campus",
-        "detail": "Interfaculty Initiative in Information Studies Main Building, B1F"
+        "address": "B1F Interfaculty Initiative in Information Studies Main Building,\nThe University of Tokyo \n7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033 JAPAN"
       },
-      "transport": "15 min walk from Nezu Station (Tokyo Metro Chiyoda Line)\n13 min walk from Todaimae Station (Tokyo Metro Nanboku Line)\n8 min walk from Hongo-Sanchome Station (Tokyo Metro Marunouchi Line / Toei Oedo Line)",
+      "transport": "10 min walk from Nezu Station (Tokyo Metro Chiyoda Line)\n4 min walk from Todaimae Station (Tokyo Metro Nanboku Line)\n8 min walk from Hongo-Sanchome Station (Tokyo Metro Marunouchi Line / Toei Oedo Line)",
       "link": {
-        "label": "Open Studio",
+        "label": "Open Studio, iii UTokyo",
         "url": "https://openstudio-utokyo.com/access/"
       },
       "datetime": {

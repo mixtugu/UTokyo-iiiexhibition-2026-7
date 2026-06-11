@@ -53,8 +53,7 @@ export type Dictionary = {
       title: string;
       venue: {
         title: string;
-        name: string;
-        detail: string;
+        address: string;
       };
       transport: string;
       link: {
