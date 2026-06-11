@@ -78,9 +78,11 @@ export function MainPageSection({ dictionary }: MainPageSectionProps) {
       </div>
 
       {/* たゆたう - 中央上部 */}
-      <div className="animate-tayutau absolute top-[4%] inset-x-0 z-10 mx-auto w-[min(280px,70vw)] drop-shadow-[2px_2px_5px_rgba(0,0,0,0.022)] md:w-[30vw]">
-        <img className="w-full" src="/main/tayutau.webp" alt="たゆたう" />
-      </div>
+      <img
+        className="block animate-tayutau absolute top-25 max-h-[calc(100vh-320px)] md:max-h-[90%] sm:top-[4%] inset-x-0 z-10 mx-auto w-[min(320px,70vw)] drop-shadow-[2px_2px_5px_rgba(0,0,0,0.022)] md:w-[max(30vw,480px)] object-contain"
+        src="/main/tayutau.webp"
+        alt="たゆたう"
+      />
 
       {/* 下部コンテンツ */}
       <div className="absolute bottom-0 left-0 right-0 z-10 flex items-end justify-between px-4 pb-6 md:px-12 md:pb-14">
@@ -127,7 +129,6 @@ export function MainPageSection({ dictionary }: MainPageSectionProps) {
           >
             {dictionary.sections.about.registrationButton}
           </a>
-
         </div>
       </div>
     </section>
