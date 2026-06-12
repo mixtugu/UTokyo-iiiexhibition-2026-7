@@ -5,13 +5,10 @@ type ConceptSectionProps = {
   dictionary: (typeof dictionaries)[Locale];
 };
 
-function renderLineBreakHints(text: string) {
-  return text.split("|").map((part, index, parts) => (
-    <span key={`${part}-${index}`}>
-      {part}
-      {index < parts.length - 1 ? <wbr /> : null}
-    </span>
-  ));
+// "|" markers were used to force breaks only at specific points; strip them so
+// the text wraps naturally at appropriate units while keeping real "\n" breaks.
+function stripBreakHints(text: string) {
+  return text.replace(/\|/g, "");
 }
 
 export function ConceptSection({ dictionary }: ConceptSectionProps) {
@@ -41,8 +38,8 @@ export function ConceptSection({ dictionary }: ConceptSectionProps) {
               className="absolute inset-0 bg-[url('/concept_background.png')] bg-contain bg-center bg-no-repeat opacity-90"
               style={{ animation: "concept-float 7s ease-in-out infinite" }}
             />
-            <p className="relative whitespace-pre-line text-lg leading-8 text-foreground/75 [word-break:keep-all] md:leading-10">
-              {renderLineBreakHints(dictionary.sections.concept.body)}
+            <p className="relative whitespace-pre-line text-sm leading-7 text-foreground/75 [line-break:strict] [overflow-wrap:break-word] [word-break:keep-all] md:text-lg md:leading-10">
+              {stripBreakHints(dictionary.sections.concept.body)}
             </p>
           </div>
         </div>
