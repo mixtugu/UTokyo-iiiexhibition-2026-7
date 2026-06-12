@@ -31,10 +31,10 @@ export function AboutSection({ dictionary }: AboutSectionProps) {
           <h2 className="font-puritan text-5xl uppercase text-foreground md:text-[50px]">
             {dictionary.sections.about.title}
           </h2>
-          <p className="font-zen-kaku w-full max-w-4xl whitespace-pre-line text-lg leading-normal text-foreground/75 [overflow-wrap:break-word] [word-break:keep-all]">
+          <p className="font-zen-kaku w-full max-w-4xl whitespace-pre-line text-base leading-normal text-foreground/75 [overflow-wrap:break-word] [word-break:keep-all] md:text-lg">
             {renderResponsiveLineBreaks(dictionary.sections.about.body)}
           </p>
-          <p className="font-zen-kaku mt-8 w-full max-w-4xl whitespace-pre-line text-lg leading-normal text-foreground/75 [overflow-wrap:break-word] [word-break:keep-all]">
+          <p className="font-zen-kaku mt-8 w-full max-w-4xl whitespace-pre-line text-base leading-normal text-foreground/75 [overflow-wrap:break-word] [word-break:keep-all] md:text-lg">
             {renderResponsiveLineBreaks(dictionary.sections.about.registration)}
           </p>
           <a
