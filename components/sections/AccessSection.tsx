@@ -21,7 +21,7 @@ export function AccessSection({ dictionary }: AccessSectionProps) {
 
           {/* Map */}
           <img
-            src="/map_new.png"
+            src="/map.webp"
             alt="Map"
             className="mx-auto w-full max-w-2xl rounded-2xl bg-white"
           />
