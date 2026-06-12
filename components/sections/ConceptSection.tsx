@@ -46,7 +46,7 @@ export function ConceptSection({ dictionary }: ConceptSectionProps) {
               className="absolute inset-0 bg-[url('/concept_background.png')] bg-contain bg-center bg-no-repeat opacity-90"
               style={{ animation: "concept-float 7s ease-in-out infinite" }}
             />
-            <p className="relative whitespace-pre-line text-lg leading-8 text-foreground/75 [word-break:keep-all] md:leading-10">
+            <p className="relative whitespace-pre-line text-base leading-7 text-foreground/75 [word-break:keep-all] md:text-lg md:leading-10">
               {renderResponsiveLineBreaks(dictionary.sections.concept.body)}
             </p>
           </div>
