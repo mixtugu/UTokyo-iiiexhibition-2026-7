@@ -21,7 +21,7 @@ export function AccessSection({ dictionary }: AccessSectionProps) {
 
           {/* Map */}
           <img
-            src="/map_new.png"
+            src="/map.webp"
             alt="Map"
             className="mx-auto w-full max-w-2xl rounded-2xl bg-white"
           />
@@ -33,26 +33,37 @@ export function AccessSection({ dictionary }: AccessSectionProps) {
               <p className="font-zen-kaku py-4 text-2xl font-bold uppercase tracking-wider text-accent">
                 {access.venue.title}
               </p>
-              <p className="font-zen-kaku text-lg leading-relaxed text-foreground/75">
-                {access.venue.name}
+              <p className="font-zen-kaku text-lg leading-relaxed text-pink underline underline-offset-4 transition-opacity hover:opacity-70">
+                <a
+                  href={access.link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {access.link.label}
+                </a>
               </p>
               <p className="font-zen-kaku whitespace-pre-line text-lg leading-relaxed text-foreground/75">
-                {access.venue.detail}
+                {access.venue.address}
               </p>
-              <a
-                href={access.link.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-zen-kaku text-lg leading-relaxed text-pink underline underline-offset-4 transition-opacity hover:opacity-70"
-              >
-                {access.link.label}
-              </a>
             </div>
 
             {/* Transport */}
             <div>
               <p className="font-zen-kaku whitespace-pre-line text-lg leading-relaxed text-foreground/75">
                 {access.transport}
+              </p>
+            </div>
+
+            {/* Map */}
+            <div className="flex flex-col gap-1">
+            <p className="font-zen-kaku text-md leading-relaxed text-pink underline underline-offset-4 transition-opacity hover:opacity-70">
+                <a
+                  href={access.map.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {access.map.label}
+                </a>
               </p>
             </div>
 
