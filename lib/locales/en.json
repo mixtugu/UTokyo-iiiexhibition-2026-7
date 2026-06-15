@@ -23,7 +23,7 @@
     },
     "concept": {
       "title": "Concept",
-      "body": "As the gravity of “rightness”| fades in the modern age, |we drift freely\nLike struggling slowly |through water against resistance,\nor wandering in that moment |before waking from a dream, |unsure of where we are\nthere is both comfort |and constraint in drifting\nGiven endless choices, |we search for the correct answer |and become averaged out in the process\n\nWhat should we rely on, |what should we seek, |and where should we go?\nTo contemplate “Tayutau“"
+      "body": "As the gravity of “rightness” fades in the modern age, |we drift freely\nLike struggling slowly through water against resistance,\nor wandering in that moment before waking from a dream, |unsure of where we are\nthere is both comfort and constraint in drifting\nGiven endless choices, |we search for the correct answer |and become averaged out in the process\n\nWhat should we rely on, |what should we seek, |and where should we go?\nTo contemplate “Tayutau” (Drifting in uncertainty)."
     },
     "about": {
       "title": "About",
@@ -44,13 +44,16 @@
       "title": "Access",
       "venue": {
         "title": "Venue",
-        "name": "The University of Tokyo, Hongo Campus",
-        "detail": "Interfaculty Initiative in Information Studies Main Building, B1F"
+        "address": "B1F Interfaculty Initiative in Information Studies Main Building,\nThe University of Tokyo \n7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033 JAPAN"
       },
-      "transport": "15 min walk from Nezu Station (Tokyo Metro Chiyoda Line)\n13 min walk from Todaimae Station (Tokyo Metro Nanboku Line)\n8 min walk from Hongo-Sanchome Station (Tokyo Metro Marunouchi Line / Toei Oedo Line)",
+      "transport": "10 min walk from Nezu Station (Tokyo Metro Chiyoda Line)\n4 min walk from Todaimae Station (Tokyo Metro Nanboku Line)\n8 min walk from Hongo-Sanchome Station (Tokyo Metro Marunouchi Line / Toei Oedo Line)",
       "link": {
-        "label": "Open Studio",
+        "label": "Open Studio, iii UTokyo",
         "url": "https://openstudio-utokyo.com/access/"
+      },
+      "map": {
+        "label": "View in Google Maps",
+        "url": "https://maps.app.goo.gl/D2m3QpoTWb7rT8nE9"
       },
       "datetime": {
         "title": "Dates",

@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ja">
+    <html lang="ja" style={{ overscrollBehaviorY: "none" }}>
       <body style={{ backgroundColor: "rgb(250,242,245)", margin: 0 }}>
         <style>{bgAnimations}</style>
         <div

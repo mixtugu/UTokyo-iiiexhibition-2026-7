@@ -44,13 +44,16 @@
       "title": "Access",
       "venue": {
         "title": "会場",
-        "name": "東京大学 本郷キャンパス",
-        "detail": "情報学環本館 地下1階"
+        "address": "〒113-0033 東京都文京区本郷7-3-1\n東京大学 本郷キャンパス 情報学環本館地下1階"
       },
       "transport": "千代田線 根津駅より徒歩15分\n南北線 東大前駅より徒歩13分\n丸ノ内線 / 都営大江戸線 本郷三丁目駅より徒歩8分",
       "link": {
         "label": "情報学環オープンスタジオ",
         "url": "https://openstudio-utokyo.com/access/"
+      },
+      "map": {
+        "label": "Google Maps で見る",
+        "url": "https://maps.app.goo.gl/D2m3QpoTWb7rT8nE9"
       },
       "datetime": {
         "title": "日時",
