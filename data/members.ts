@@ -35,9 +35,9 @@ export const memberGroups: MemberGroup[] = [
         profileLink: "",
       },
       {
-        id: "Jigtong_Dou",
+        id: "Jingtong_Dou",
         ja: "竇 靖童",
-        en: "Jigtong Dou",
+        en: "Jingtong Dou",
         profileLink: "",
       },
       {
