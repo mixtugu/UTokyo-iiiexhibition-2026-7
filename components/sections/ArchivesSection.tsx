@@ -35,7 +35,9 @@ function ArchiveTitles({ items }: { items: ArchiveItem[] }) {
 
 export function ArchivesSection({ dictionary }: ArchivesSectionProps) {
   const iiiExhibitionTitles: ArchiveItem[] = [
-    { title: "iiiExhibition 2025 : あることないこと",
+    { 
+      title: "iiiExhibition 2025 : あることないこと",
+      href: "https://2025-main.pages.dev/",
     },
     {
       title: "iiiExhibition 2024 : 付いて離れて",
