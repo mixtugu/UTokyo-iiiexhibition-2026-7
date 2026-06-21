@@ -27,7 +27,7 @@ export function LocalePageContent({ locale }: LocalePageContentProps) {
         />
         <ConceptSection dictionary={dictionary} />
         <AboutSection dictionary={dictionary} />
-        <WorksSection dictionary={dictionary} />
+        <WorksSection dictionary={dictionary} locale={locale} />
         <MembersSection dictionary={dictionary} locale={locale} />
         <AccessSection dictionary={dictionary} />
         <ArchivesSection dictionary={dictionary} />
