@@ -382,3 +382,13 @@ export const memberGroups: MemberGroup[] = [
     ]
   }
 ];
+
+// 全メンバーの一覧
+export const allMembers: Member[] = memberGroups.flatMap(
+  (group) => group.members,
+);
+
+// id からメンバーを取得
+export function getMemberById(id: string): Member | undefined {
+  return allMembers.find((member) => member.id === id);
+}
