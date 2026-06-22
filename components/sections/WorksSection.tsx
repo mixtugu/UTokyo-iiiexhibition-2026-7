@@ -51,7 +51,7 @@ export function WorksSection({ dictionary, locale }: WorksSectionProps) {
             {works.map((work) => (
               <button
                 aria-label={work.title[locale]}
-                className="group flex flex-col items-center transition-transform duration-300 hover:scale-105"
+                className="group flex w-[240px] flex-col items-center transition-transform duration-300 hover:scale-105 md:w-[280px]"
                 key={work.id}
                 onClick={() => setSelected(work)}
                 type="button"
