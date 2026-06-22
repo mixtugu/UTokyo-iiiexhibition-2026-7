@@ -28,7 +28,7 @@ export const works: Work[] = [
       ja: "犬が肉球で受ける歩行感覚を、人間の手のひらへ授ける。\n触覚体験と、犬視点での映像が、見慣れた街の風景を「あしもと３０センチ」から捉え直す。\nそして、犬の身体を通して歩くことで、私たち自身の身体感覚を再発見するとともに、都市環境は、誰にとっての「快適さ」として設計されてきたのかを問いかける。",
       en: "This work transfers the sensation of walking through a dog's paw pads into the human palm. Combining a tactile experience with video from a dog's perspective, it invites participants to re-experience familiar urban landscapes from just 30 centimeters above the ground. By walking through the body of a dog, we not only rediscover our own embodied sense of perception, but also question for whom urban environments have been designed as spaces of “comfort.”",
     },
-    memberIds: ["Hinako_Makita"],
+    memberIds: ["Hinako_Makita", "Ryuhei_Sugimoto"],
   },
   {
     id: "work3",
@@ -38,7 +38,7 @@ export const works: Work[] = [
       ja: "私たちはつねに何かに触れている。\nその感覚は日常の背景に消えていく。\n本作品では、形を定めず水中で蠢くタコの腕が、鑑賞者の手に巻きつく。皮膚を這い、手を囲い込むその異物の触覚は、普段は意識の外に沈んでいる感覚を強く呼び覚ます。\nそれは心地よさではなく、背景化していた身体の輪郭を取り戻す瞬間となる。",
       en: "We are always touching something.\nYet these sensations fade into the background of everyday life.\nIn this work, an octopus arm, writhing underwater without a fixed form, wraps around the viewer’s hand. As it crawls over the skin and encloses the hand, its alien tactility forcefully awakens sensations that usually sink beyond our awareness.\nIt is not comfort, but a moment in which the body’s backgrounded contours return.",
     },
-    memberIds: ["Ryuhei_Sugimoto"],
+    memberIds: ["Ryuhei_Sugimoto", "Michitoshi_Tsubaki"],
   },
   {
     id: "work4",
@@ -116,6 +116,14 @@ export const works: Work[] = [
       ja: "あなたは、微生物たちの美に目を向けたことがあるだろうか。本展示では、肉眼で見ることができず、普段見過ごされることが多い微生物たちの美やデザインを追求する。\nAR技術とデジタル万華鏡を用いて、実際に東京大学本郷キャンパス内に生息する微生物たちと来場者によるバイオアート制作を試みる。",
       en: "Have you ever paid attention to the beauty of microorganisms? This exhibition explores the aesthetics and forms of microorganisms—life forms too small to be seen with the naked eye and often overlooked in our daily lives.\nUsing AR technology and a digital kaleidoscope, this exhibition invites visitors to create bio‑art in collaboration with microorganisms inhabiting the University of Tokyo’s Hongo campus.",
     },
-    memberIds: ["Taisei_Fukaya"],
+    memberIds: [
+      "Taisei_Fukaya",
+      "Rikuto_Maruse",
+      "Rinji_Sasaki",
+      "Kengo_Kawaji",
+      "Hinata_Mikami",
+      "Akane_Koyama",
+      "Yasmin_Hinano_Yamashita",
+    ],
   },
 ];
