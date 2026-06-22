@@ -18,7 +18,29 @@ const bgAnimations = `
 
 export const metadata: Metadata = {
   title: "UTokyo iii Exhibition 2026: Beginning",
-  description: "Public page for UTokyo iii Exhibition 2026 Beginning.",
+  description: "【UTokyo iii Exhibition 2026 Beginning】 Public page",
+  openGraph: {
+    title: "UTokyo iii Exhibition 2026: Beginning",
+    description: "【UTokyo iii Exhibition】 Public page",
+    url: "https://iiiexhibition.com/",
+    siteName: "UTokyo iii Exhibition 2026",
+    images: [
+      {
+        url: "/ogp_image.jpg", 
+        width: 1200,
+        height: 630,
+        alt: "UTokyo iii Exhibition 2026 Main Poster",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "UTokyo iii Exhibition 2026: Beginning",
+    description: "【UTokyo iii Exhibition】 Public page",
+    images: ["/ogp_image.jpg"],
+  },
 };
 
 export default function RootLayout({
