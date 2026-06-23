@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     siteName: "UTokyo iii Exhibition 2026",
     images: [
       {
-        url: "https://iiiexhibition.com/ogp_image.jpg", // 👉 무조건 https:// 부터 시작하는 풀 주소를 적어주세요!
+        url: "https://iiiexhibition.com/ogp_image/v2.jpg", 
         width: 1200,
         height: 630,
         alt: "UTokyo iii Exhibition 2026 Main Poster",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://iiiexhibition.com/ogp_image.jpg"], 
+    images: ["https://iiiexhibition.com/ogp_image/v2.jpg"], 
   },
 };
 
