@@ -17,6 +17,7 @@ const bgAnimations = `
 `;
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://iiiexhibition.com"), 
   title: "UTokyo iii Exhibition 2026: Beginning",
   description: "【UTokyo iii Exhibition 2026 Beginning】 Public page",
   openGraph: {
@@ -32,7 +33,7 @@ export const metadata: Metadata = {
         alt: "UTokyo iii Exhibition 2026 Main Poster",
       },
     ],
-    locale: "en_US",
+    locale: "en_US", 
     type: "website",
   },
   twitter: {
