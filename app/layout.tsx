@@ -17,7 +17,7 @@ const bgAnimations = `
 `;
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://iiiexhibition.com"), 
+  metadataBase: new URL("https://iiiexhibition.com"),
   title: "UTokyo iii Exhibition 2026: Beginning",
   description: "【UTokyo iii Exhibition 2026 Beginning】 Public page",
   openGraph: {
@@ -27,20 +27,18 @@ export const metadata: Metadata = {
     siteName: "UTokyo iii Exhibition 2026",
     images: [
       {
-        url: "/ogp_image.jpg", 
+        url: "https://iiiexhibition.com/ogp_image.jpg", // 👉 무조건 https:// 부터 시작하는 풀 주소를 적어주세요!
         width: 1200,
         height: 630,
         alt: "UTokyo iii Exhibition 2026 Main Poster",
       },
     ],
-    locale: "en_US", 
+    locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "UTokyo iii Exhibition 2026: Beginning",
-    description: "【UTokyo iii Exhibition】 Public page",
-    images: ["/ogp_image.jpg"],
+    images: ["https://iiiexhibition.com/ogp_image.jpg"], 
   },
 };
 
