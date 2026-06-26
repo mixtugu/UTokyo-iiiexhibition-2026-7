@@ -40,6 +40,38 @@
       "title": "Members",
       "body": "members"
     },
+    "goods": {
+      "title": "THANK YOU GIFT",
+      "description1": "This year, we will once again hold our donation thank-you gift program.",
+      "lead": "About the donation thank-you gift program",
+      "description2": "The UTokyo iii Exhibition has established the UTokyo iii Exhibition Creators Fund.",
+      "description3": "Click here for details about the UTokyo iii Exhibition Creators Fund.",
+      "description4": "Since last year, visitors who donate on the day of the exhibition",
+      "description5": "have received thank-you gifts according to the donation amount.",
+      "note": "Payment methods: PayPay or bank transfer",
+      "items": [
+        {
+          "name": "CLEAR FILE",
+          "description": "クリアファイル",
+          "mark": "C"
+        },
+        {
+          "name": "STICKER",
+          "description": "ステッカー",
+          "mark": "S"
+        },
+        {
+          "name": "ACRYLIC KEYCHAIN",
+          "description": "アクリルキーホルダー",
+          "mark": "A"
+        },
+        {
+          "name": "T-SHIRT",
+          "description": "Tシャツ",
+          "mark": "T"
+        }
+      ]
+    },
     "access": {
       "title": "Access",
       "venue": {
