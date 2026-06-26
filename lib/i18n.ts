@@ -49,6 +49,21 @@ export type Dictionary = {
       title: string;
       body: string;
     };
+    goods: {
+      title: string;
+      lead: string;
+      description1: string;
+      description2: string;
+      description3: string;
+      description4: string;
+      description5: string;
+      note: string;
+      items: {
+        name: string;
+        description: string;
+        mark: string;
+      }[];
+    };
     access: {
       title: string;
       venue: {

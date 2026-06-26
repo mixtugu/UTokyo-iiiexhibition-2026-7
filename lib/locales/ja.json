@@ -17,7 +17,7 @@
       "label": "Main Page",
       "lead": "Main Page",
       "date": "2026.07.10 (金) - 07.13 (月)",
-      "finalDayHours": "最終日は17:00まで",
+      "finalDayHours": "※ 最終日のみ - 17:00となります",
       "location1": "東京大学本郷キャンパス 情報学環本館",
       "location2": "地下1階 情報学環オープンスタジオ"
     },
@@ -40,6 +40,38 @@
       "title": "Members",
       "body": "Members"
     },
+    "goods": {
+      "title": "THANK YOU GIFT",
+      "description1": "今年度も寄付返礼品企画を実施します。",
+      "lead": "寄付返礼品企画について",
+      "description2": "東京大学制作展では「東京大学制作展クリエイターズ基金」を設置しております。",
+      "description3": "東大制作展クリエイターズ基金の詳細はこちら",
+      "description4": "昨年度より、制作展当日にご寄付していただいた方に、",
+      "description5": "金額に応じて返礼品をお渡ししております。",
+      "note": "支払い方法：PayPayまたは銀行振込み",
+      "items": [
+        {
+          "name": "CLEAR FILE",
+          "description": "クリアファイル",
+          "mark": "C"
+        },
+        {
+          "name": "STICKER",
+          "description": "ステッカー",
+          "mark": "S"
+        },
+        {
+          "name": "ACRYLIC KEYCHAIN",
+          "description": "アクリルキーホルダー",
+          "mark": "A"
+        },
+        {
+          "name": "T-SHIRT",
+          "description": "Tシャツ",
+          "mark": "T"
+        }
+      ]
+    },
     "access": {
       "title": "Access",
       "venue": {
@@ -57,7 +89,7 @@
       },
       "datetime": {
         "title": "日時",
-        "value": "2026.7.10 (金)  - 2026.7.13 (月)\n11:00 - 19:00\n最終日は17:00まで"
+        "value": "2026.7.10 (金)  - 2026.7.13 (月)\n11:00 - 19:00\n※ 最終日のみ - 17:00となります"
       },
       "organizer": {
         "title": "主催",
