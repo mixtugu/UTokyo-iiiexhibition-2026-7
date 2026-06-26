@@ -40,6 +40,38 @@
       "title": "Members",
       "body": "Members"
     },
+    "goods": {
+      "title": "THANK YOU GIFT",
+      "description1": "今年度も寄付返礼品企画を実施します。",
+      "lead": "寄付返礼品企画について",
+      "description2": "東京大学制作展では「東京大学制作展クリエイターズ基金」を設置しております。",
+      "description3": "東大制作展クリエイターズ基金の詳細はこちら",
+      "description4": "昨年度より、制作展当日にご寄付していただいた方に、",
+      "description5": "金額に応じて返礼品をお渡ししております。",
+      "note": "支払い方法：PayPayまたは銀行振込み",
+      "items": [
+        {
+          "name": "CLEAR FILE",
+          "description": "クリアファイル",
+          "mark": "C"
+        },
+        {
+          "name": "STICKER",
+          "description": "ステッカー",
+          "mark": "S"
+        },
+        {
+          "name": "ACRYLIC KEYCHAIN",
+          "description": "アクリルキーホルダー",
+          "mark": "A"
+        },
+        {
+          "name": "T-SHIRT",
+          "description": "Tシャツ",
+          "mark": "T"
+        }
+      ]
+    },
     "access": {
       "title": "Access",
       "venue": {
