@@ -45,10 +45,15 @@
       "description1": "今年度も寄付返礼品企画を実施します。",
       "lead": "寄付返礼品企画について",
       "description2": "東京大学制作展では「東京大学制作展クリエイターズ基金」を設置しております。",
-      "description3": "東大制作展クリエイターズ基金の詳細はこちら",
+      "description3": {
+        "before": "東大制作展クリエイターズ基金の詳細は",
+        "linkLabel": "こちら",
+        "after": ""
+      },
       "description4": "昨年度より、制作展当日にご寄付していただいた方に、",
       "description5": "金額に応じて返礼品をお渡ししております。",
-      "note": "支払い方法：PayPayまたは銀行振込み",
+      "itemsLabel": "返礼品",
+      "note": "支払い方法：PayPay",
       "items": [
         {
           "name": "CLEAR FILE",

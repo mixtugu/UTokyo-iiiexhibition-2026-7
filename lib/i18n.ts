@@ -54,9 +54,14 @@ export type Dictionary = {
       lead: string;
       description1: string;
       description2: string;
-      description3: string;
+      description3: {
+        before: string;
+        linkLabel: string;
+        after: string;
+      };
       description4: string;
       description5: string;
+      itemsLabel: string;
       note: string;
       items: {
         name: string;

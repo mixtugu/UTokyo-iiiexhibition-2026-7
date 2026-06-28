@@ -7,6 +7,8 @@ type GoodsSectionProps = {
 };
 
 const goodsImages: Record<string, string> = {
+  "CLEAR FILE": "/goods/clearfile.png",
+  STICKER: "/goods/sticker.png",
   "ACRYLIC KEYCHAIN": "/goods/keychain.png",
   "T-SHIRT": "/goods/shirt.png",
 };
@@ -33,7 +35,18 @@ export function GoodsSection({ dictionary }: GoodsSectionProps) {
               {copy.lead}
             </p>
             <p>{copy.description2}</p>
-            <p>{copy.description3}</p>
+            <p>
+              {copy.description3.before}
+              <a
+                className="underline underline-offset-4 transition-opacity hover:opacity-70"
+                href="https://utf.u-tokyo.ac.jp/project/pjt187"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                {copy.description3.linkLabel}
+              </a>
+              {copy.description3.after}
+            </p>
             <p>{copy.description4}</p>
             <p>{copy.description5}</p>
           </div>
@@ -41,7 +54,7 @@ export function GoodsSection({ dictionary }: GoodsSectionProps) {
           <div className="w-full">
             <div className="relative mb-8 border-t-2 border-dotted border-pink/45">
               <span className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 bg-background px-6 font-zen-kaku text-2xl text-pink">
-                返礼品
+                {copy.itemsLabel}
               </span>
             </div>
 
