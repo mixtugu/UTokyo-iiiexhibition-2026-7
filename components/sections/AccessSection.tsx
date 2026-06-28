@@ -20,11 +20,13 @@ export function AccessSection({ dictionary }: AccessSectionProps) {
           </h2>
 
           {/* Map */}
-          <img
-            src="/map.webp"
-            alt="Map"
-            className="mx-auto w-full max-w-2xl rounded-2xl bg-white"
-          />
+          <div className="mx-auto w-full max-w-2xl rounded-2xl bg-white overflow-hidden">
+            <img
+              src="/map.webp"
+              alt="Map"
+              className="ml-4"
+            />
+          </div>
 
           {/* Info */}
           <div className="mt-12 flex flex-col gap-8">
