@@ -9,7 +9,8 @@ export type Work = {
 export const works: Work[] = [
   {
     id: "work1",
-    title: { ja: "可聴化される遺伝子", en: "Audible Genes" },
+    image: "/works/audible_genes.webp",
+    title: { ja: "可聴化する遺伝子", en: "Audible Genes" },
     description: {
       ja: "DNA 配列のデータを、実行可能な命令セットとして再定義した上で、音楽理論に基づく音響に即時変換し、自己の生命情報を音楽作品として体験するためのシステム。コンプレックスである自らの身体を美しい音楽に変換することで、克服しようとする試み。",
       en: "This system redefines DNA sequence data as an executable set of instructions, translating it instantly into sound based on music theory, and allows users to experience their own biological information as a musical composition. It is an attempt to overcome my body—which is perceived as a source of complexity—by transforming it into beautiful music.",
@@ -23,6 +24,7 @@ export const works: Work[] = [
   },
   {
     id: "work2",
+    image: "/works/paw-walk-kv.png",
     title: { ja: "paw walk", en: "paw walk" },
     description: {
       ja: "犬が肉球で受ける歩行感覚を、人間の手のひらへ授ける。\n触覚体験と、犬視点での映像が、見慣れた街の風景を「あしもと３０センチ」から捉え直す。\nそして、犬の身体を通して歩くことで、私たち自身の身体感覚を再発見するとともに、都市環境は、誰にとっての「快適さ」として設計されてきたのかを問いかける。",
@@ -70,10 +72,10 @@ export const works: Work[] = [
     },
     memberIds: [
       "Haruna_Nohara",
-      "Hou_Yancheng",
-      "Ryoichi_Sato",
-      "Keigo_Toda",
       "Seojung_Lee",
+      "Keigo_Toda",
+      "Ryoichi_Sato",
+      "Hou_Yancheng",
     ],
   },
   {
@@ -96,15 +98,17 @@ export const works: Work[] = [
     },
     memberIds: ["Hinata_Mikami", "Taisei_Fukaya"],
   },
-  {
-    id: "work9",
-    title: { ja: "手のひらで踊らされる", en: "Danced in the Palm of a Hand" },
-    description: {
-      ja: "私たちが自らの意志で決定している（と思い込んでいる）事柄は、遺伝や環境、アルゴリズム等の外部要因に無意識に影響されている。\n\n本作は、音楽や空間が行動に与える影響を「踊り」を通して体験し、自由意志とは何かを問いかけるインスタレーションだ。\n\n私たちは踊っているのだろうか、それとも踊らされているのだろうか。",
-      en: "What we believe we choose of our own free will is, in reality, unconsciously influenced by external factors such as genetics, environment, and algorithms.\n\nThrough the medium of \"dance,\" this installation allows us to experience how music and space affect our behavior, questioning the nature of free will.\n\nAre we dancing, or are we being danced?",
-    },
-    memberIds: ["Haruta_Ogawa", "Michael_Wong_Kam", "Tadasuke_Koshimbo"],
-  },
+  // 一時的に非表示（手のひらで踊らされる / Danced in the Palm of a Hand）
+  // {
+  //   id: "work9",
+  //   image: "/works/danced_in_the_palm.png",
+  //   title: { ja: "手のひらで踊らされる", en: "Danced in the Palm of a Hand" },
+  //   description: {
+  //     ja: "私たちが自らの意志で決定している（と思い込んでいる）事柄は、遺伝や環境、アルゴリズム等の外部要因に無意識に影響されている。\n\n本作は、音楽や空間が行動に与える影響を「踊り」を通して体験し、自由意志とは何かを問いかけるインスタレーションだ。\n\n私たちは踊っているのだろうか、それとも踊らされているのだろうか。",
+  //     en: "What we believe we choose of our own free will is, in reality, unconsciously influenced by external factors such as genetics, environment, and algorithms.\n\nThrough the medium of \"dance,\" this installation allows us to experience how music and space affect our behavior, questioning the nature of free will.\n\nAre we dancing, or are we being danced?",
+  //   },
+  //   memberIds: ["Haruta_Ogawa", "Michael_Wong_Kam", "Tadasuke_Koshimbo"],
+  // },
   {
     id: "work10",
     image: "/works/microorganisms.jpg",
@@ -119,10 +123,10 @@ export const works: Work[] = [
     memberIds: [
       "Taisei_Fukaya",
       "Rikuto_Maruse",
-      "Rinji_Sasaki",
       "Kengo_Kawaji",
-      "Hinata_Mikami",
+      "Rinji_Sasaki",
       "Akane_Koyama",
+      "Hinata_Mikami",
       "Yasmin_Hinano_Yamashita",
     ],
   },

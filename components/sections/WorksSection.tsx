@@ -47,17 +47,17 @@ export function WorksSection({ dictionary, locale }: WorksSectionProps) {
           <h2 className="font-puritan text-3xl uppercase text-foreground md:text-[50px]">
             {dictionary.sections.works.title}
           </h2>
-          <div className="flex flex-wrap justify-center gap-10 md:gap-16">
+          <div className="flex w-full flex-wrap justify-center gap-x-6 gap-y-10 md:gap-x-10">
             {works.map((work) => (
               <button
                 aria-label={work.title[locale]}
-                className="group flex w-[240px] flex-col items-center transition-transform duration-300 hover:scale-105 md:w-[280px]"
+                className="group flex w-[calc(50%-1rem)] flex-col items-center transition-transform duration-300 hover:scale-105 md:w-[calc(20%-2.25rem)]"
                 key={work.id}
                 onClick={() => setSelected(work)}
                 type="button"
               >
                 <div
-                  className="flex h-[240px] w-[240px] items-center justify-center overflow-hidden rounded-full bg-white/85 shadow-[4px_6px_20px_rgba(0,0,0,0.18)] md:h-[280px] md:w-[280px]"
+                  className="flex aspect-square w-full items-center justify-center overflow-hidden rounded-full bg-white/85 shadow-[4px_6px_20px_rgba(0,0,0,0.18)]"
                 >
                   {work.image ? (
                     <img
