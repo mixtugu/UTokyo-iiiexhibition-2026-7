@@ -4,6 +4,8 @@ export type Work = {
   title: { ja: string; en: string };
   description: { ja: string; en: string };
   memberIds?: string[];
+  // members.ts（メンバーセクション）には載せず、作品のクレジットにだけ表示する名前
+  extraMembers?: string[];
 };
 
 export const works: Work[] = [
@@ -108,6 +110,7 @@ export const works: Work[] = [
   //     en: "What we believe we choose of our own free will is, in reality, unconsciously influenced by external factors such as genetics, environment, and algorithms.\n\nThrough the medium of \"dance,\" this installation allows us to experience how music and space affect our behavior, questioning the nature of free will.\n\nAre we dancing, or are we being danced?",
   //   },
   //   memberIds: ["Haruta_Ogawa", "Michael_Wong_Kam", "Tadasuke_Koshimbo"],
+  //   extraMembers: ["Joshua WK", "Warsman"],
   // },
   {
     id: "work10",
