@@ -110,14 +110,20 @@ export function WorksSection({ dictionary, locale }: WorksSectionProps) {
                 <p className="whitespace-pre-line font-zen-kaku text-base leading-relaxed text-foreground/75">
                   {selected.description[locale]}
                 </p>
-                {selected.memberIds && selected.memberIds.length > 0 ? (
-                  <p className="mt-6 font-zen-kaku text-sm text-foreground/60">
-                    {selected.memberIds
+                {(() => {
+                  const names = [
+                    ...(selected.memberIds ?? [])
                       .map((id) => getMemberById(id)?.[locale])
-                      .filter(Boolean)
-                      .join(" / ")}
-                  </p>
-                ) : null}
+                      .filter(Boolean),
+                    ...(selected.extraMembers ?? []),
+                  ];
+
+                  return names.length > 0 ? (
+                    <p className="mt-6 font-zen-kaku text-sm text-foreground/60">
+                      {names.join(" / ")}
+                    </p>
+                  ) : null;
+                })()}
               </div>
             </div>
           </div>
