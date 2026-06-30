@@ -3,7 +3,6 @@ import { AccessSection } from "@/components/sections/AccessSection";
 import { ArchivesSection } from "@/components/sections/ArchivesSection";
 import { ConceptSection } from "@/components/sections/ConceptSection";
 import { FooterSection } from "@/components/sections/FooterSection";
-import { GoodsSection } from "@/components/sections/GoodsSection";
 import { MainPageSection } from "@/components/sections/MainPageSection";
 import { MembersSection } from "@/components/sections/MembersSection";
 import { NavigationSection } from "@/components/sections/NavigationSection";
@@ -29,7 +28,6 @@ export function LocalePageContent({ locale }: LocalePageContentProps) {
         <ConceptSection dictionary={dictionary} />
         <AboutSection dictionary={dictionary} />
         <WorksSection dictionary={dictionary} locale={locale} />
-        <GoodsSection dictionary={dictionary} locale={locale} />
         <MembersSection dictionary={dictionary} locale={locale} />
         <AccessSection dictionary={dictionary} />
         <ArchivesSection dictionary={dictionary} />

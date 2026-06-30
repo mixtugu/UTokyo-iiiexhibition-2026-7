@@ -47,17 +47,17 @@ export function WorksSection({ dictionary, locale }: WorksSectionProps) {
           <h2 className="font-puritan text-3xl uppercase text-foreground md:text-[50px]">
             {dictionary.sections.works.title}
           </h2>
-          <div className="flex w-full flex-wrap justify-center gap-x-6 gap-y-10 md:gap-x-10">
+          <div className="flex flex-wrap justify-center gap-10 md:gap-16">
             {works.map((work) => (
               <button
                 aria-label={work.title[locale]}
-                className="group flex w-[calc(50%-1rem)] flex-col items-center transition-transform duration-300 hover:scale-105 md:w-[calc(20%-2.25rem)]"
+                className="group flex w-[240px] flex-col items-center transition-transform duration-300 hover:scale-105 md:w-[280px]"
                 key={work.id}
                 onClick={() => setSelected(work)}
                 type="button"
               >
                 <div
-                  className="flex aspect-square w-full items-center justify-center overflow-hidden rounded-full bg-white/85 shadow-[4px_6px_20px_rgba(0,0,0,0.18)]"
+                  className="flex h-[240px] w-[240px] items-center justify-center overflow-hidden rounded-full bg-white/85 shadow-[4px_6px_20px_rgba(0,0,0,0.18)] md:h-[280px] md:w-[280px]"
                 >
                   {work.image ? (
                     <img
@@ -110,20 +110,14 @@ export function WorksSection({ dictionary, locale }: WorksSectionProps) {
                 <p className="whitespace-pre-line font-zen-kaku text-base leading-relaxed text-foreground/75">
                   {selected.description[locale]}
                 </p>
-                {(() => {
-                  const names = [
-                    ...(selected.memberIds ?? [])
+                {selected.memberIds && selected.memberIds.length > 0 ? (
+                  <p className="mt-6 font-zen-kaku text-sm text-foreground/60">
+                    {selected.memberIds
                       .map((id) => getMemberById(id)?.[locale])
-                      .filter(Boolean),
-                    ...(selected.extraMembers ?? []),
-                  ];
-
-                  return names.length > 0 ? (
-                    <p className="mt-6 font-zen-kaku text-sm text-foreground/60">
-                      {names.join(" / ")}
-                    </p>
-                  ) : null;
-                })()}
+                      .filter(Boolean)
+                      .join(" / ")}
+                  </p>
+                ) : null}
               </div>
             </div>
           </div>
