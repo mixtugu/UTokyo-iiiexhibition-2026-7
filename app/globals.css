@@ -45,6 +45,14 @@
     min-height: 100%;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
+  section[id] {
+    scroll-margin-top: 5rem;
+  }
+
   body {
     background: var(--color-background);
     color: var(--color-foreground);
