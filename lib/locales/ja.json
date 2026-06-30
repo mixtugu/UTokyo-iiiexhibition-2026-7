@@ -45,10 +45,15 @@
       "description1": "今年度も寄付返礼品企画を実施します。",
       "lead": "寄付返礼品企画について",
       "description2": "東京大学制作展では「東京大学制作展クリエイターズ基金」を設置しております。",
-      "description3": "東大制作展クリエイターズ基金の詳細はこちら",
+      "description3": {
+        "before": "東大制作展クリエイターズ基金の詳細は",
+        "linkLabel": "こちら",
+        "after": ""
+      },
       "description4": "昨年度より、制作展当日にご寄付していただいた方に、",
       "description5": "金額に応じて返礼品をお渡ししております。",
-      "note": "支払い方法：PayPayまたは銀行振込み",
+      "itemsLabel": "返礼品",
+      "note": "支払い方法：PayPay",
       "items": [
         {
           "name": "CLEAR FILE",
@@ -78,7 +83,7 @@
         "title": "会場",
         "address": "〒113-0033 東京都文京区本郷7-3-1\n東京大学 本郷キャンパス 情報学環本館地下1階"
       },
-      "transport": "千代田線 根津駅より徒歩15分\n南北線 東大前駅より徒歩13分\n丸ノ内線 / 都営大江戸線 本郷三丁目駅より徒歩8分",
+      "transport": "都営大江戸線 本郷三丁目駅より徒歩10分\n丸ノ内線 本郷三丁目駅より徒歩11分\n南北線 東大前駅より徒歩13分\n千代田線 根津駅より徒歩16分",
       "link": {
         "label": "情報学環オープンスタジオ",
         "url": "https://openstudio-utokyo.com/access/"
@@ -93,7 +98,7 @@
       },
       "organizer": {
         "title": "主催",
-        "detail": "本展覧会は東京大学 情報学環・学際情報学府が主催しております。\n（お問い合わせ：utokyo.iii.exhibition@gmail.com）"
+        "detail": "本展覧会は東京大学 情報学環・学際情報学府が主催しております。\n（お問い合わせ：utokyo.iii.exhibition[at]gmail.com）"
       }
     },
     "archives": {
