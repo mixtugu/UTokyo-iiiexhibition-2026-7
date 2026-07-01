@@ -38,6 +38,26 @@
   }
 }
 
+.scrollbar-thin {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: rgba(114, 109, 103, 0.55) rgba(114, 109, 103, 0.14); /* thumb track */
+}
+.scrollbar-thin::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: rgba(114, 109, 103, 0.14);
+  border-radius: 9999px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: rgba(114, 109, 103, 0.55);
+  border-radius: 9999px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(114, 109, 103, 0.75);
+}
+
 @layer base {
   html,
   body {

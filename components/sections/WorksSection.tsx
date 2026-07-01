@@ -51,7 +51,7 @@ export function WorksSection({ dictionary, locale }: WorksSectionProps) {
             {works.map((work) => (
               <button
                 aria-label={work.title[locale]}
-                className="group flex w-[calc(50%-1rem)] flex-col items-center transition-transform duration-300 hover:scale-105 md:w-[calc(20%-2.25rem)]"
+                className="group flex w-[calc(50%-1rem)] cursor-pointer flex-col items-center transition-transform duration-300 hover:scale-105 md:w-[calc(20%-2.25rem)]"
                 key={work.id}
                 onClick={() => setSelected(work)}
                 type="button"
@@ -84,26 +84,27 @@ export function WorksSection({ dictionary, locale }: WorksSectionProps) {
           role="dialog"
         >
           <div
-            className="relative max-h-[85vh] w-full max-w-2xl overflow-y-auto rounded-3xl bg-white p-6 pt-16 text-left shadow-[0_10px_40px_rgba(0,0,0,0.3)] md:max-w-4xl md:p-10 md:pt-10"
+            className="relative flex max-h-[85vh] w-full max-w-2xl flex-col overflow-hidden rounded-3xl bg-white p-6 pt-16 text-left shadow-[0_10px_40px_rgba(0,0,0,0.3)] md:max-w-4xl md:p-10 md:pt-10"
             onClick={(event) => event.stopPropagation()}
           >
             <button
               aria-label="Close"
-              className="absolute right-4 top-4 z-10 flex h-10 w-10 items-center justify-center text-2xl leading-none text-foreground/70 transition-colors hover:text-foreground"
+              className="absolute right-4 top-4 z-10 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-white/80 text-2xl leading-none text-foreground/70 backdrop-blur-sm transition-colors [transform:translateZ(0)] [will-change:transform] hover:text-foreground"
               onClick={() => setSelected(null)}
               type="button"
             >
               ×
             </button>
-            <div className="flex flex-col gap-6 md:flex-row md:items-center md:gap-8">
+            <div className="flex min-h-0 flex-1 flex-col gap-6 overflow-y-auto md:flex-row md:items-stretch md:gap-8 md:overflow-hidden">
               {selected.image ? (
                 <img
                   alt={selected.title[locale]}
-                  className="h-auto w-full rounded-2xl object-cover md:w-1/2 md:shrink-0"
+                  className="h-auto w-full rounded-2xl object-cover md:w-1/2 md:shrink-0 md:self-start"
                   src={selected.image}
                 />
               ) : null}
-              <div className="md:flex-1">
+              <div className="md:relative md:flex-1 md:min-h-0 md:self-stretch">
+                <div className="scrollbar-thin md:absolute md:inset-x-0 md:inset-y-8 md:overflow-y-auto md:pr-2">
                 <h3 className="mb-4 font-puritan text-xl uppercase text-foreground md:text-3xl">
                   {selected.title[locale]}
                 </h3>
@@ -111,19 +112,39 @@ export function WorksSection({ dictionary, locale }: WorksSectionProps) {
                   {selected.description[locale]}
                 </p>
                 {(() => {
-                  const names = [
+                  const credits = [
                     ...(selected.memberIds ?? [])
-                      .map((id) => getMemberById(id)?.[locale])
-                      .filter(Boolean),
-                    ...(selected.extraMembers ?? []),
+                      .map((id) => getMemberById(id))
+                      .filter((member): member is NonNullable<typeof member> =>
+                        Boolean(member),
+                      )
+                      .map((member) => ({
+                        name: member[locale],
+                        affiliation: member.affiliation?.[locale] ?? "",
+                      })),
+                    ...(selected.extraMembers ?? []).map((name) => ({
+                      name,
+                      affiliation: "",
+                    })),
                   ];
 
-                  return names.length > 0 ? (
-                    <p className="mt-6 font-zen-kaku text-sm text-foreground/60">
-                      {names.join(" / ")}
-                    </p>
+                  return credits.length > 0 ? (
+                    <ul className="mt-6 space-y-1 font-zen-kaku text-sm text-foreground/60">
+                      {credits.map((credit, index) => (
+                        <li key={`${credit.name}-${index}`}>
+                          {credit.name}
+                          {credit.affiliation ? (
+                            <span className="text-xs text-foreground/50">
+                              {"　"}
+                              {credit.affiliation}
+                            </span>
+                          ) : null}
+                        </li>
+                      ))}
+                    </ul>
                   ) : null;
                 })()}
+                </div>
               </div>
             </div>
           </div>
