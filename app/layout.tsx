@@ -18,27 +18,35 @@ const bgAnimations = `
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://iiiexhibition.com"),
-  title: "UTokyo iii Exhibition 2026: Beginning",
-  description: "【UTokyo iii Exhibition 2026 Beginning】 Public page",
+  title: "東京大学 制作展 「たゆたう」 | UTokyo iii Exhibition 2026 Beginning",
+  description: "東京大学 制作展 「たゆたう」 2026.07.10(金) - 07.13(月) 11:00 - 19:00 （※最終日のみ17:00まで） @東京大学本郷キャンパス 情報学環本館 地下1階 情報学環オープンスタジオ",
+
   openGraph: {
-    title: "UTokyo iii Exhibition 2026: Beginning",
-    description: "【UTokyo iii Exhibition】 Public page",
+    title: "東京大学 制作展 「たゆたう」 | UTokyo iii Exhibition 2026 Beginning",
+    description: "2026.07.10(金) - 07.13(月) 11:00 - 19:00 （※最終日17:00まで） @東京大学本郷キャンパス 情報学環オープンスタジオにて開催される、東京大学 制作展 「たゆたう」 の公式ページです。",
     url: "https://iiiexhibition.com/",
-    siteName: "UTokyo iii Exhibition 2026",
+    siteName: "東京大学 制作展 たゆたう",
     images: [
       {
-        url: "https://iiiexhibition.com/ogp_image.jpg", // 👉 무조건 https:// 부터 시작하는 풀 주소를 적어주세요!
+        url: "https://iiiexhibition.com/ogp_image_v2.jpg",
         width: 1200,
         height: 630,
-        alt: "UTokyo iii Exhibition 2026 Main Poster",
+        alt: "東京大学 制作展 「たゆたう」 メインビジュアル",
       },
     ],
-    locale: "en_US",
+    locale: "ja_JP", 
     type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
-    images: ["https://iiiexhibition.com/ogp_image.jpg"], 
+    title: "東京大学 制作展 「たゆたう」 | UTokyo iii Exhibition 2026 Beginning",
+    description: "2026.07.10(金) - 07.13(月) 11:00 - 19:00 （※最終日17:00まで）@東京大学本郷キャンパス 情報学環オープンスタジオ",
+    images: ["https://iiiexhibition.com/ogp_image_v2.jpg"],
+  },
+
+  other: {
+    thumbnail: "https://iiiexhibition.com/ogp_image_v2.jpg",
   },
 };
 
