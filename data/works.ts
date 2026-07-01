@@ -100,18 +100,17 @@ export const works: Work[] = [
     },
     memberIds: ["Hinata_Mikami", "Taisei_Fukaya"],
   },
-  // 一時的に非表示（手のひらで踊らされる / Danced in the Palm of a Hand）
-  // {
-  //   id: "work9",
-  //   image: "/works/danced_in_the_palm.png",
-  //   title: { ja: "手のひらで踊らされる", en: "Danced in the Palm of a Hand" },
-  //   description: {
-  //     ja: "私たちが自らの意志で決定している（と思い込んでいる）事柄は、遺伝や環境、アルゴリズム等の外部要因に無意識に影響されている。\n\n本作は、音楽や空間が行動に与える影響を「踊り」を通して体験し、自由意志とは何かを問いかけるインスタレーションだ。\n\n私たちは踊っているのだろうか、それとも踊らされているのだろうか。",
-  //     en: "What we believe we choose of our own free will is, in reality, unconsciously influenced by external factors such as genetics, environment, and algorithms.\n\nThrough the medium of \"dance,\" this installation allows us to experience how music and space affect our behavior, questioning the nature of free will.\n\nAre we dancing, or are we being danced?",
-  //   },
-  //   memberIds: ["Haruta_Ogawa", "Michael_Wong_Kam", "Tadasuke_Koshimbo"],
-  //   extraMembers: ["Joshua WK", "Warsman"],
-  // },
+  {
+    id: "work9",
+    image: "/works/danced_in_the_palm_kv.png",
+    title: { ja: "手のひらで踊らされる", en: "Danced in the Palm of a Hand" },
+    description: {
+      ja: "私たちが自らの意志で決定している（と思い込んでいる）事柄は、遺伝や環境、アルゴリズム等の外部要因に無意識に影響されている。\n\n本作は、音楽や空間が行動に与える影響を「踊り」を通して体験し、自由意志とは何かを問いかけるインスタレーションだ。\n\n私たちは踊っているのだろうか、それとも踊らされているのだろうか。",
+      en: "What we believe we choose of our own free will is, in reality, unconsciously influenced by external factors such as genetics, environment, and algorithms.\n\nThrough the medium of \"dance,\" this installation allows us to experience how music and space affect our behavior, questioning the nature of free will.\n\nAre we dancing, or are we being danced?",
+    },
+    memberIds: ["Haruta_Ogawa", "Michael_Wong_Kam", "Tadasuke_Koshimbo"],
+    extraMembers: ["Joshua WK", "Warsman"],
+  },
   {
     id: "work10",
     image: "/works/microorganisms.jpg",
