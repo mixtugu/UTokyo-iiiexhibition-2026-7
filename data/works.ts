@@ -10,19 +10,14 @@ export type Work = {
 
 export const works: Work[] = [
   {
-    id: "work1",
-    image: "/works/audible_genes.webp",
-    title: { ja: "可聴化する遺伝子", en: "Audible Genes" },
+    id: "work3",
+    image: "/works/mollusk.png",
+    title: { ja: "Mollusk", en: "Mollusk" },
     description: {
-      ja: "DNA 配列のデータを、実行可能な命令セットとして再定義した上で、音楽理論に基づく音響に即時変換し、自己の生命情報を音楽作品として体験するためのシステム。コンプレックスである自らの身体を美しい音楽に変換することで、克服しようとする試み。",
-      en: "This system redefines DNA sequence data as an executable set of instructions, translating it instantly into sound based on music theory, and allows users to experience their own biological information as a musical composition. It is an attempt to overcome my body—which is perceived as a source of complexity—by transforming it into beautiful music.",
+      ja: "私たちはつねに何かに触れている。\nその感覚は日常の背景に消えていく。\n本作品では、形を定めず水中で蠢くタコの腕が、鑑賞者の手に巻きつく。皮膚を這い、手を囲い込むその異物の触覚は、普段は意識の外に沈んでいる感覚を強く呼び覚ます。\nそれは心地よさではなく、背景化していた身体の輪郭を取り戻す瞬間となる。",
+      en: "We are always touching something.\nYet these sensations fade into the background of everyday life.\nIn this work, an octopus arm, writhing underwater without a fixed form, wraps around the viewer’s hand. As it crawls over the skin and encloses the hand, its alien tactility forcefully awakens sensations that usually sink beyond our awareness.\nIt is not comfort, but a moment in which the body’s backgrounded contours return.",
     },
-    memberIds: [
-      "Yayoi_Okamoto",
-      "Yuki_Kamon",
-      "Tadasuke_Koshimbo",
-      "Hiroaki_Tsuneizumi",
-    ],
+    memberIds: ["Ryuhei_Sugimoto", "Michitoshi_Tsubaki"],
   },
   {
     id: "work2",
@@ -33,16 +28,6 @@ export const works: Work[] = [
       en: "This work transfers the sensation of walking through a dog's paw pads into the human palm. Combining a tactile experience with video from a dog's perspective, it invites participants to re-experience familiar urban landscapes from just 30 centimeters above the ground. By walking through the body of a dog, we not only rediscover our own embodied sense of perception, but also question for whom urban environments have been designed as spaces of “comfort.”",
     },
     memberIds: ["Hinako_Makita", "Ryuhei_Sugimoto"],
-  },
-  {
-    id: "work3",
-    image: "/works/mollusk.png",
-    title: { ja: "Mollusk", en: "Mollusk" },
-    description: {
-      ja: "私たちはつねに何かに触れている。\nその感覚は日常の背景に消えていく。\n本作品では、形を定めず水中で蠢くタコの腕が、鑑賞者の手に巻きつく。皮膚を這い、手を囲い込むその異物の触覚は、普段は意識の外に沈んでいる感覚を強く呼び覚ます。\nそれは心地よさではなく、背景化していた身体の輪郭を取り戻す瞬間となる。",
-      en: "We are always touching something.\nYet these sensations fade into the background of everyday life.\nIn this work, an octopus arm, writhing underwater without a fixed form, wraps around the viewer’s hand. As it crawls over the skin and encloses the hand, its alien tactility forcefully awakens sensations that usually sink beyond our awareness.\nIt is not comfort, but a moment in which the body’s backgrounded contours return.",
-    },
-    memberIds: ["Ryuhei_Sugimoto", "Michitoshi_Tsubaki"],
   },
   {
     id: "work4",
@@ -63,6 +48,21 @@ export const works: Work[] = [
       en: "By blurring the boundary between space and clothing, the body loses its outline and seeps into its surroundings.\nHere, people do not simply exist—they drift, they sway, they dissolve into space.\nPerhaps the line between self and other is far more uncertain than we imagine.",
     },
     memberIds: ["Yugo_Tamakia", "Arata_Kotani"],
+  },
+  {
+    id: "work1",
+    image: "/works/audible_genes.webp",
+    title: { ja: "可聴化する遺伝子", en: "Audible Genes" },
+    description: {
+      ja: "DNA 配列のデータを、実行可能な命令セットとして再定義した上で、音楽理論に基づく音響に即時変換し、自己の生命情報を音楽作品として体験するためのシステム。コンプレックスである自らの身体を美しい音楽に変換することで、克服しようとする試み。",
+      en: "This system redefines DNA sequence data as an executable set of instructions, translating it instantly into sound based on music theory, and allows users to experience their own biological information as a musical composition. It is an attempt to overcome my body—which is perceived as a source of complexity—by transforming it into beautiful music.",
+    },
+    memberIds: [
+      "Yayoi_Okamoto",
+      "Yuki_Kamon",
+      "Tadasuke_Koshimbo",
+      "Hiroaki_Tsuneizumi",
+    ],
   },
   {
     id: "work6",
