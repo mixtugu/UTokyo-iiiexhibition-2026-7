@@ -61,7 +61,7 @@ export function GoodsSection({ dictionary }: GoodsSectionProps) {
             <div className="grid w-full grid-cols-2 gap-x-5 gap-y-8 md:grid-cols-4 md:gap-x-8">
               {copy.items.map((item, index) => (
                 <article
-                  className="group flex min-w-0 flex-col items-center transition-transform duration-300 hover:scale-105"
+                  className="flex min-w-0 flex-col items-center"
                   key={item.name}
                 >
                   <div
