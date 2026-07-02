@@ -40,13 +40,50 @@
       "title": "Members",
       "body": "members"
     },
+    "goods": {
+      "title": "THANK YOU GIFT",
+      "description1": "This year, we will once again hold our donation thank-you gift program.",
+      "lead": "About the donation thank-you gift program",
+      "description2": "The UTokyo iii Exhibition has established the UTokyo iii Exhibition Creators Fund.",
+      "description3": {
+        "before": "Click ",
+        "linkLabel": "here",
+        "after": " for details about the UTokyo iii Exhibition Creators Fund."
+      },
+      "description4": "Since last year, visitors who donate on the day of the exhibition",
+      "description5": "have received thank-you gifts according to the donation amount.",
+      "itemsLabel": "THANK-YOU GIFTS",
+      "note": "Payment method: PayPay",
+      "items": [
+        {
+          "name": "CLEAR FILE",
+          "description": "クリアファイル",
+          "mark": "C"
+        },
+        {
+          "name": "STICKER",
+          "description": "ステッカー",
+          "mark": "S"
+        },
+        {
+          "name": "ACRYLIC KEYCHAIN",
+          "description": "アクリルキーホルダー",
+          "mark": "A"
+        },
+        {
+          "name": "T-SHIRT",
+          "description": "Tシャツ",
+          "mark": "T"
+        }
+      ]
+    },
     "access": {
       "title": "Access",
       "venue": {
         "title": "Venue",
         "address": "B1F Interfaculty Initiative in Information Studies Main Building,\nThe University of Tokyo \n7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033 JAPAN"
       },
-      "transport": "10 min walk from Nezu Station (Tokyo Metro Chiyoda Line)\n4 min walk from Todaimae Station (Tokyo Metro Nanboku Line)\n8 min walk from Hongo-Sanchome Station (Tokyo Metro Marunouchi Line / Toei Oedo Line)",
+      "transport": "10 min walk from Hongo-Sanchome Station (Toei Oedo Line)\n11 min walk from Hongo-Sanchome Station (Tokyo Metro Marunouchi Line)\n13 min walk from Todaimae Station (Tokyo Metro Nanboku Line)\n16 min walk from Nezu Station (Tokyo Metro Chiyoda Line)",
       "link": {
         "label": "Open Studio, iii UTokyo",
         "url": "https://openstudio-utokyo.com/access/"
@@ -61,7 +98,7 @@
       },
       "organizer": {
         "title": "Organizer",
-        "detail": "This exhibition is organized by the Graduate School of Interdisciplinary Information Studies, The University of Tokyo.\n(Contact: utokyo.iii.exhibition@gmail.com)"
+        "detail": "This exhibition is organized by the Graduate School of Interdisciplinary Information Studies, The University of Tokyo.\n(Contact: utokyo.iii.exhibition[at]gmail.com)"
       }
     },
     "archives": {
