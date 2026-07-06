@@ -31,7 +31,18 @@ export function MembersSection({ dictionary, locale }: MembersSectionProps) {
                       key={member.id || `${group.id}-${index}`}
                     >
                       {index > 0 ? "| " : ""}
-                      {member[locale] || "-"}
+                      {member.profileLink ? (
+                        <a
+                          className="underline decoration-current decoration-1 underline-offset-4 transition-colors hover:text-foreground focus-visible:text-foreground focus-visible:outline-none"
+                          href={member.profileLink}
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          {member[locale] || "-"}
+                        </a>
+                      ) : (
+                        member[locale] || "-"
+                      )}
                     </span>
                   ))}
                 </p>
