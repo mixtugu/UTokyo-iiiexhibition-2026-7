@@ -27,7 +27,7 @@ export const memberGroups: MemberGroup[] = [
         id: "Michael_Wong_Kam",
         ja: "ウォンカム 真生路",
         en: "Michael Wong Kam",
-        profileLink: "",
+        profileLink: "https://linktr.ee/mikey_130",
         affiliation: {
           ja: "学際情報学府　山肩研究室　修士１年",
           en: "Graduate School of Interdisciplinary Information Studies, Yamakata Lab, M1",
@@ -37,7 +37,7 @@ export const memberGroups: MemberGroup[] = [
         id: "Taichi_Inohara",
         ja: "猪原 大智",
         en: "Taichi Inohara",
-        profileLink: "",
+        profileLink: "https://inotai.net/about",
       },
       {
         id: "Jingtong_Dou",
@@ -101,7 +101,7 @@ export const memberGroups: MemberGroup[] = [
         id: "Seojung_Lee",
         ja: "イ ソジョン",
         en: "Seojung Lee",
-        profileLink: "",
+        profileLink: "https://portfolio-mixtugu.onrender.com/",
         affiliation: {
           ja: "学際情報学府　渡邉研究室　修士１年",
           en: "Graduate School of Interdisciplinary Information Studies, Watanabe Lab, M1",
@@ -333,7 +333,7 @@ export const memberGroups: MemberGroup[] = [
         id: "Haruna_Nohara",
         ja: "野原 春菜",
         en: "Haruna Nohara",
-        profileLink: "",
+        profileLink: "https://www.linkedin.com/in/haruna-nohara",
         affiliation: {
           ja: "学際情報学府　渡邉研究室　修士１年",
           en: "Graduate School of Interdisciplinary Information Studies, Watanabe Lab, M1",
@@ -411,7 +411,7 @@ export const memberGroups: MemberGroup[] = [
         id: "Yugo_Tamakia",
         ja: "田牧 悠吾",
         en: "Yugo Tamaki",
-        profileLink: "",
+        profileLink: "https://instagram.com/myoeeen",
         affiliation: {
           ja: "工学部建築学科　学部４年",
           en: "Faculty of Engineering, Architecture, B4",
@@ -428,6 +428,27 @@ export const memberGroups: MemberGroup[] = [
         },
       }
     ]
+  },
+  {
+    id: "Staff",
+    title: {
+      ja: "スタッフ",
+      en: "STAFF",
+    },
+    members: [
+      {
+        id: "Joshua_WK",
+        ja: "Joshua WK",
+        en: "Joshua WK",  
+        profileLink: "https://www.instagram.com/justajwk?igsh=MXgzanA1Z2tlem9icg%3D%3D&utm_source=qr",
+      },
+      {
+        id: "Warsman",
+        ja: "Warsman",
+        en: "Warsman",
+        profileLink: "",
+      },
+    ],
   },
   {
     id:"Faculty_Advisor",
