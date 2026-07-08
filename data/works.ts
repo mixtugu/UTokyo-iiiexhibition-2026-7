@@ -2,6 +2,7 @@ export type Work = {
   id: string;
   image?: string;
   title: { ja: string; en: string };
+  note?: { ja: string; en: string };
   description: { ja: string; en: string };
   memberIds?: string[];
   // members.ts（メンバーセクション）には載せず、作品のクレジットにだけ表示する名前
@@ -94,6 +95,10 @@ export const works: Work[] = [
     id: "work8",
     image: "/works/ai_artistic_integration.jpg",
     title: { ja: "AI：Artistic Integration", en: "AI：Artistic Integration" },
+    note: {
+      ja: "※ 7/10（金）は13:00からの開始となります。",
+      en: "* This exhibit will open at 13:00 on Friday, July 10.",
+    },
     description: {
       ja: "布に覆われ、正体を見せない「モチーフ」\nあなたはその中身を想像し、\n傍らのホワイトボードに線を描き加える\n\n描いた軌跡は他者に侵食され、混ざり合う\n\n正解のない問いに向かって、人々の意識が不確かに「たゆたう」時間の記録\nそこに、あなたは何を見出すか\n\n『AI：Artistic Integration』",
       en: "A form shrouded in cloth, its true shape concealed.You imagine what’s inside, adding a line to the whiteboard beside you.\n\nThe lines you draw will be disrupted by others and blend together.\nIt is a record of time, in which people’s consciousness “tayutau (drifts)” uncertainly toward a correct answer that does not (even) exist.\nWhat do you see beneath this cloth?\n\n『AI：Artistic Integration』",

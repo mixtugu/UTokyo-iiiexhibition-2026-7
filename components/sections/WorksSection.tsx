@@ -105,9 +105,14 @@ export function WorksSection({ dictionary, locale }: WorksSectionProps) {
               ) : null}
               <div className="md:relative md:flex-1 md:min-h-0 md:self-stretch">
                 <div className="scrollbar-thin md:absolute md:inset-x-0 md:inset-y-8 md:overflow-y-auto md:pr-2">
-                <h3 className="mb-4 font-puritan text-xl uppercase text-foreground md:text-3xl">
+                <h3 className="mb-2 font-puritan text-xl uppercase text-foreground md:text-3xl">
                   {selected.title[locale]}
                 </h3>
+                {selected.note ? (
+                  <p className="mb-4 font-zen-kaku text-xs leading-relaxed text-foreground/55 md:text-sm">
+                    {selected.note[locale]}
+                  </p>
+                ) : null}
                 <p className="whitespace-pre-line font-zen-kaku text-base leading-relaxed text-foreground/75">
                   {selected.description[locale]}
                 </p>
