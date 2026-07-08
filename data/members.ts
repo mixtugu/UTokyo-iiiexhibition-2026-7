@@ -20,7 +20,7 @@ export const memberGroups: MemberGroup[] = [
     id: "PD",
     title: {
       ja: "プロデューサー/ディレクター",
-      en: "PROJECT DIRECTOR",
+      en: "Producer/Director",
     },
     members: [
       {
@@ -57,7 +57,7 @@ export const memberGroups: MemberGroup[] = [
     id:"PM",
     title: {
       ja: "プロジェクトマネージャー",
-      en: "PROJECT MANAGER"
+      en: "Project Manager"
     },
     members : [
       {
@@ -82,7 +82,7 @@ export const memberGroups: MemberGroup[] = [
     id:"Website",
     title: {
       ja: "ウェブ",
-      en: "WEBSITE"
+      en: "Website"
     },
     members : [
       {
@@ -125,7 +125,7 @@ export const memberGroups: MemberGroup[] = [
     id:"Copy",
     title: {
       ja: "コピー",
-      en: "COPY WRITING"
+      en: "Copy Writing"
     },
     members : [
       {
@@ -177,7 +177,7 @@ export const memberGroups: MemberGroup[] = [
     id:"Accounting",
     title: {
       ja: "会計",
-      en: "ACCOUNTING"
+      en: "Accounting"
     },
     members : [
       {
@@ -206,7 +206,7 @@ export const memberGroups: MemberGroup[] = [
     id:"gallery",
     title: {
       ja: "会場",
-      en: "GALLERY"
+      en: "Gallery"
     },
     members : [
       {
